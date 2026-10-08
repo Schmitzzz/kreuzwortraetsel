@@ -1,0 +1,558 @@
+# Wörter mit 4 Buchstaben
+# Format:  WORT | Level | Hinweis leicht | Hinweis schwer
+#   WORT   = nur A-Z in Großbuchstaben (Ä=AE, Ö=OE, Ü=UE, ß=SS)
+#   Level  = 1 jeder kennt's, 2 Allgemeinwissen, 3 Rätsel-Profi
+#   Hinweis schwer darf leer bleiben, dann wird der leichte genommen.
+# Zeilen mit # am Anfang sind Kommentare, leere Zeilen werden ignoriert.
+
+ACHT | 1 | Zahl nach sieben | Hälfte von sechzehn
+ADEL | 2 | Hochwohlgeborener Stand | Aristokratie
+ADER | 1 | Blutgefäß | Goldader im Gestein
+AFFE | 1 | Bananenfreund im Zoo | Primat
+AHNE | 3 | Vorfahrin | Stammmutter
+AKKU | 1 | Aufladbare Batterie | Handy-Energiespeicher
+AKTE | 1 | Ordner mit Unterlagen | Dossier
+ALBE | 3 | Weißes Priestergewand | Liturgisches Gewand
+ALGE | 2 | Wasserpflanze | Tang
+ALLE | 1 | Jeder, sämtliche | Aufgebraucht (ugs.)
+ALSO | 1 | Folglich | Somit
+AMME | 3 | Säugende Kinderfrau | Ziehmutter (früher)
+AMOR | 2 | Römischer Liebesgott | Pfeilschütze der Liebe
+ANIS | 2 | Lakritz-Gewürz | Ouzo-Aroma
+ANNA | 1 | Frauenname | Palindrom-Vorname
+ARIE | 2 | Opernsolo | Gesangsstück in der Oper
+ARZT | 1 | Mediziner | Doktor
+ATEM | 1 | Luft zum Atmen | Puste
+ATOM | 2 | Kleinstes Teilchen | ...kraftwerk
+AUCH | 1 | Ebenfalls | Gleichfalls
+AUFS | 1 | „auf das“ (kurz) | „... Neue“
+AUGE | 1 | Sehorgan | Würfelpunkt
+AULA | 2 | Festsaal einer Schule | Schulsaal
+AUTO | 1 | Fahrzeug mit vier Rädern | Wagen, Karre
+AXEL | 3 | Eiskunstlauf-Sprung | Dreifacher ... (Sprung)
+BABY | 1 | Säugling | Neugeborenes
+BACH | 1 | Kleiner Fluss | Komponist (Johann S.)
+BAER | 1 | Großes Raubtier mit Pelz | Meister Petz
+BAHN | 1 | Eisenbahn | Weg, Strecke
+BALD | 1 | In Kürze | Demnächst
+BALI | 2 | Indonesische Insel | Insel der Götter
+BALL | 1 | Runder Spielgegenstand | Tanzfest
+BAND | 1 | Musikgruppe | Buch einer Reihe
+BANK | 1 | Sitzmöbel im Park | Geldinstitut
+BART | 1 | Haare im Gesicht | Teil des Schlüssels
+BAUM | 1 | Großes Holzgewächs | Eiche oder Buche
+BEET | 1 | Gartenstück für Blumen | Gemüse...
+BEIM | 1 | „bei dem“ (kurz) | „... Bäcker“
+BEIN | 1 | Körperteil zum Laufen | Tisch...
+BERG | 1 | Hohe Erhebung | Gipfel-Träger
+BERN | 1 | Hauptstadt der Schweiz | Bundesstadt der Schweiz
+BETT | 1 | Möbel zum Schlafen | Flussbett
+BIER | 1 | Gerstensaft | Hopfengetränk
+BILD | 1 | Gemälde, Foto | Vorstellung
+BLAU | 1 | Farbe des Himmels | Betrunken (ugs.)
+BLEI | 2 | Schweres Metall | Pb
+BLOG | 1 | Online-Tagebuch | Web-Journal
+BLUT | 1 | Roter Lebenssaft | Lebenssaft
+BONN | 1 | Ehem. Hauptstadt | Beethovenstadt
+BOOT | 1 | Kleines Wasserfahrzeug | Kahn
+BOTE | 1 | Überbringer | Kurier
+BRAV | 1 | Artig | Folgsam
+BROT | 1 | Gebackenes vom Bäcker | Laib
+BUCH | 1 | Lesestoff | Wälzer
+BUNT | 1 | Vielfarbig | Farbenfroh
+BURG | 1 | Ritterfestung | Sand...
+BUTT | 3 | Plattfisch | Flunder-Verwandter
+CAFE | 1 | Kaffeehaus | Konditorei
+CHAT | 1 | Online-Plauderei | Gespräch im Netz
+CHEF | 1 | Vorgesetzter | Boss
+CHOR | 1 | Gesangsgruppe | Sängerschar
+CITY | 2 | Innenstadt (engl.) | Stadtzentrum
+CLUB | 1 | Verein | Disco
+CODE | 1 | Programmtext | Geheimschrift
+COLA | 1 | Braune Limonade | Koffeinbrause
+DACH | 1 | Oben auf dem Haus | Ziegel-Fläche
+DAME | 1 | Feine Frau | Brettspiel
+DANK | 1 | Dankbarkeit | Vergelt's Gott
+DARF | 1 | Ist erlaubt | Dürfen: er ...
+DATE | 2 | Verabredung (engl.) | Rendezvous
+DECK | 1 | Schiffsboden | Oberste Etage im Bus
+DEKO | 1 | Kurz: Dekoration | Schmuck (kurz)
+DICK | 1 | Gegenteil von „dünn“ | Beleibt
+DIEB | 1 | Langfinger | Gauner
+DING | 1 | Gegenstand, Sache | Teil, Objekt
+DOCH | 1 | Trotzdem | Widerspruchs-„Ja“
+DOOF | 1 | Dumm (ugs.) | Blöd
+DORF | 1 | Kleine Ortschaft | Gemeinde
+DOSE | 1 | Konservenbüchse | Büchse
+DRAN | 1 | An der Reihe (ugs.) | „Du bist ...“
+DREI | 1 | Zahl nach zwei | Trio-Zahl
+DUFT | 1 | Wohlgeruch | Parfüm-Note
+DUMM | 1 | Nicht klug | Töricht
+EBBE | 1 | Niedrigwasser | Gegenteil von „Flut“
+EBEN | 1 | Flach | Gerade, soeben
+EBER | 2 | Männliches Schwein | Keiler
+EBRO | 3 | Fluss in Spanien | Spanischer Strom
+ECHO | 1 | Widerhall | Nachhall
+ECKE | 1 | Kante, Winkel | Fußball: Eckstoß
+EDEL | 1 | Vornehm, wertvoll | Nobel
+EDEN | 3 | Paradies | Garten ...
+EDER | 3 | Fluss in Hessen | ...talsperre
+EFEU | 2 | Kletterpflanze | Immergrüner Kletterer
+EGAL | 1 | Gleichgültig | Einerlei
+EGGE | 3 | Ackergerät | Feldgerät zum Krümeln
+EGON | 2 | Männername | Chef der Olsenbande
+EHER | 1 | Früher, lieber | Vielmehr
+EHRE | 1 | Würde, Ansehen | Ruhm
+EIER | 1 | Vom Huhn (Mehrzahl) | Hühner-Erzeugnisse
+EILE | 1 | Hast | Zeitdruck
+EINE | 1 | Artikel (weiblich) | Zahlwort
+EINS | 1 | Zahl vor zwei | Beste Schulnote
+EKEL | 1 | Abscheu | Widerwille
+ELAN | 2 | Schwung | Begeisterung
+ELBE | 1 | Fluss durch Hamburg | Strom durch Dresden
+ELCH | 1 | Größter Hirsch | Schwedischer Riese
+ELFE | 2 | Zartes Fabelwesen | Waldgeist
+EMIL | 2 | Männername | ... und die Detektive
+EMMA | 1 | Frauenname | Frauenmagazin
+ENDE | 1 | Schluss | Finale
+ENGE | 2 | Schmale Stelle | Platzmangel
+ENNS | 3 | Fluss in Österreich | Nebenfluss der Donau
+ENTE | 1 | Watschelnder Wasservogel | Zeitungsfalschmeldung
+ERBE | 1 | Nachlass | Hinterlassenschaft
+ERDE | 1 | Unser Planet | Boden
+ERNA | 2 | Frauenname | Alter Frauenname
+ERST | 1 | Zuerst | Nicht früher als
+ESEL | 1 | Grautier | Dummkopf (Schimpfwort)
+ESSE | 3 | Schornstein | Schmiedefeuer
+ETAT | 3 | Haushalt, Budget | Staatshaushalt
+ETUI | 2 | Brillen... | Kleines Behältnis
+ETWA | 1 | Ungefähr | Rund
+EULE | 1 | Nachtvogel | Weisheits-Symbol
+EURO | 1 | Währung | Gemeinschaftswährung
+FACH | 1 | Schulfach | Regalabteil
+FADE | 1 | Langweilig | Ohne Würze
+FALL | 1 | Sturz | Kriminalfall
+FAND | 1 | Finden: er ... | Entdeckte
+FARN | 2 | Waldpflanze | Sporenpflanze
+FASS | 1 | Behälter für Wein | Tonne
+FAST | 1 | Beinahe | Nahezu
+FAUL | 1 | Träge | Verdorben (Obst)
+FEIN | 1 | Zart | Vornehm
+FELD | 1 | Acker | Spielfläche
+FELL | 1 | Haarkleid der Tiere | Pelz
+FELS | 1 | Großer Stein | Klippe
+FEST | 1 | Feier | Hart, stabil
+FETT | 1 | Butter, Öl oder Schmalz | Dick (ugs.)
+FILM | 1 | Kinostreifen | Movie
+FINK | 2 | Singvogel | Buch... (Vogel)
+FLUG | 1 | Reise im Flugzeug | Luftreise
+FLUR | 1 | Hausgang | Korridor
+FLUT | 1 | Hochwasser | Gegenteil von „Ebbe“
+FORM | 1 | Gestalt | Kondition
+FOTO | 1 | Lichtbild | Schnappschuss
+FRAU | 1 | Weiblicher Mensch | Ehegattin
+FROH | 1 | Glücklich | Heiter
+FUGE | 2 | Spalt zwischen Fliesen | Musikform (Bach)
+FUNK | 2 | Musikrichtung | Radioverkehr
+FUSS | 1 | Körperteil zum Gehen | Längenmaß (engl.)
+GAME | 1 | Spiel (engl.) | Videospiel
+GANS | 1 | Martinsbraten | Federvieh
+GANZ | 1 | Vollständig | Heil
+GAST | 1 | Besucher | Hotelgast
+GELB | 1 | Farbe der Zitrone | Fußball: ... Karte
+GELD | 1 | Zahlungsmittel | Moneten
+GERA | 2 | Stadt in Thüringen | Thüringer Stadt
+GERN | 1 | Mit Freude | Bereitwillig
+GIER | 1 | Habsucht | Unersättlichkeit
+GIFT | 1 | Tödlicher Stoff | Toxin
+GING | 1 | Gehen: er ... | „Er ... nach Hause“
+GNOM | 2 | Zwerg, Kobold | Erdgeist
+GOLD | 1 | Edelmetall | Siegerfarbe
+GOLF | 1 | Rasensport mit Loch | Meerbusen
+GOTT | 1 | Höchstes Wesen | Schöpfer
+GRAB | 1 | Ruhestätte | Gruft
+GRAS | 1 | Wiesengewächs | Rasen
+GRAU | 1 | Farbe der Maus | Trüb, trist
+GRAZ | 2 | Stadt in der Steiermark | Stadt an der Mur
+GURT | 1 | Sicherheitsgurt | Gürtel
+GURU | 2 | Spiritueller Lehrer | Meister
+GUSS | 2 | Regenschauer | Zuckerguss
+HAAR | 1 | Wächst auf dem Kopf | Locke
+HAFT | 2 | Gefängnisstrafe | Arrest
+HAHN | 1 | Männliches Huhn | Wasserhahn
+HAIN | 3 | Kleiner Wald | Lichtes Wäldchen
+HALB | 1 | Fünfzig Prozent | Zur Hälfte
+HALL | 2 | Nachklang | Echo
+HALS | 1 | Unter dem Kopf | Flaschen...
+HALT | 1 | „Stopp!“ | Stütze
+HAND | 1 | Körperteil mit Fingern | Pfote (ugs.)
+HANF | 2 | Faserpflanze | Cannabis
+HANS | 1 | Männername | ... im Glück
+HART | 1 | Gegenteil von „weich“ | Fest
+HARZ | 2 | Baumsaft | Mittelgebirge (Brocken)
+HASE | 1 | Langohr | Meister Lampe
+HAST | 2 | Eile | Überstürzung
+HAUS | 1 | Gebäude zum Wohnen | Heim
+HAUT | 1 | Äußere Körperhülle | Teint
+HEER | 2 | Armee | Streitmacht
+HEFE | 1 | Backtriebmittel | Germ (österr.)
+HEFT | 1 | Schulheft | Griff (Messer)
+HEIM | 1 | Zuhause | Wohnstätte
+HELD | 1 | Mutiger Mensch | Hauptfigur
+HELL | 1 | Gegenteil von „dunkel“ | Licht
+HEMD | 1 | Oberteil mit Knöpfen | Ober...
+HERD | 1 | Kochstelle | Feuerstelle
+HERR | 1 | Mann (höflich) | Gebieter
+HERZ | 1 | Pumpt das Blut | Spielkartenfarbe
+HEXE | 1 | Märchenfigur mit Besen | Zauberin
+HIER | 1 | An diesem Ort | Gegenteil von „dort“
+HIRN | 1 | Gehirn | Verstand
+HOCH | 1 | Gegenteil von „tief“ | Wetter: Hochdruckgebiet
+HOHL | 1 | Innen leer | Ohne Inhalt
+HOHN | 2 | Spott | Verachtung
+HOLZ | 1 | Material vom Baum | Brennstoff
+HOSE | 1 | Beinkleid | Jeans z. B.
+HUHN | 1 | Eierlegendes Federvieh | Henne
+HUND | 1 | Bester Freund | Bello
+HUPE | 1 | Signalhorn im Auto | Tröte am Steuer
+ICON | 2 | Symbolbildchen | Programm-Symbol
+IDEE | 1 | Einfall | Geistesblitz
+IDOL | 2 | Vorbild | Star, Abgott
+IGEL | 1 | Stacheltier | Stachliger Schläfer
+IGLU | 1 | Schneehaus | Eishütte der Inuit
+ILSE | 2 | Frauenname | Alter Frauenname
+INGE | 2 | Frauenname | Kurzform von Ingeborg
+IRAK | 2 | Staat am Euphrat | Staat mit Bagdad
+IRAN | 2 | Staat in Vorderasien | Persien heute
+IRIS | 2 | Regenbogenhaut | Schwertlilie
+ISAR | 2 | Fluss durch München | Nebenfluss der Donau
+JAGD | 1 | Pirsch | Hatz
+JAHR | 1 | Zwölf Monate | 365 Tage
+JAZZ | 2 | Musikrichtung | Swing, Bebop
+JENA | 2 | Unistadt in Thüringen | Saalestadt
+JUDO | 1 | Japanischer Kampfsport | Sanfter Weg (jap.)
+JULI | 1 | Siebter Monat | Hochsommermonat
+JUNI | 1 | Sechster Monat | Sommermonat
+JURA | 2 | Rechtswissenschaft | Gebirge in der Schweiz
+KAHL | 1 | Ohne Haare | Glatzköpfig
+KAHN | 2 | Flaches Boot | Nachen
+KALB | 1 | Junges Rind | Kuh-Nachwuchs
+KALT | 1 | Gegenteil von „warm“ | Frostig
+KAMM | 1 | Zum Frisieren | Bergrücken
+KANN | 1 | „Ich ... das!“ | Vermag
+KANU | 1 | Paddelboot | Kajak oder Kanadier
+KARL | 1 | Männername | ... der Große
+KARO | 2 | Spielkartenfarbe | Raute (Muster)
+KAUF | 1 | Erwerb | Shopping
+KAUM | 1 | Fast nicht | Schwerlich
+KAUZ | 2 | Kleine Eule | Komischer Kerl
+KEIM | 2 | Bakterie | Spross
+KEKS | 1 | Kleines Gebäck | Plätzchen
+KERN | 1 | Inneres von Obst | Atom...
+KIEL | 2 | Landeshauptstadt (S-H) | Schiffsrückgrat
+KIES | 2 | Kleine Steine | Geld (ugs.)
+KILO | 1 | Kurz: Kilogramm | Tausend (Vorsilbe)
+KILT | 2 | Schottenrock | Männerrock
+KIND | 1 | Junger Mensch | Sprössling
+KINN | 1 | Unten im Gesicht | Gesichtsspitze
+KINO | 1 | Filmtheater | Lichtspielhaus
+KITT | 2 | Fensterdichtmasse | Klebemasse
+KIWI | 1 | Grüne behaarte Frucht | Neuseeländer (ugs.)
+KLAR | 1 | Deutlich | Glasklar
+KLEE | 2 | Glücksblatt | Futterpflanze
+KLUG | 1 | Schlau | Gescheit
+KNIE | 1 | Gelenk im Bein | Beingelenk
+KOCH | 1 | Küchenchef | Er rührt im Topf
+KOHL | 1 | Gemüse | Unsinn (ugs.)
+KOJE | 2 | Bett auf dem Schiff | Schlafplatz an Bord
+KOPF | 1 | Sitz des Gehirns | Haupt
+KORB | 1 | Geflochtener Behälter | Absage (Liebe)
+KORN | 1 | Getreide | Schnaps
+KRAN | 1 | Baustellen-Heber | Baumaschine
+KUBA | 1 | Karibikinsel (Havanna) | Zuckerinsel
+KUSS | 1 | Schmatz | Bussi
+LACK | 1 | Glänzender Anstrich | Nagel...
+LAGE | 1 | Position | Situation
+LAHN | 3 | Fluss durch Marburg | Nebenfluss des Rheins
+LAIB | 1 | Ganzes Brot | Brotlaib
+LAIE | 2 | Nicht-Fachmann | Amateur
+LAMA | 1 | Andentier | Spucktier
+LAMM | 1 | Junges Schaf | Osterbraten
+LAND | 1 | Staat | Gegenteil von „Stadt“
+LANG | 1 | Gegenteil von „kurz“ | Ausgedehnt
+LAOS | 2 | Staat in Südostasien | Staat am Mekong
+LAST | 1 | Bürde | Gewicht
+LAUB | 1 | Blätter der Bäume | Herbstblätter
+LAUF | 1 | Rennen | Gewehrrohr
+LAUT | 1 | Gegenteil von „leise“ | Geräuschvoll
+LECH | 3 | Fluss durch Augsburg | Nebenfluss der Donau
+LEER | 1 | Gegenteil von „voll“ | Ohne Inhalt
+LEHM | 2 | Tonerde | Baustoff aus Erde
+LEID | 1 | Kummer | „Es tut mir ...“
+LENA | 1 | Frauenname | Fluss in Sibirien
+LENZ | 3 | Frühling (dichterisch) | Lebensjahr (poetisch)
+LIEB | 1 | Nett, brav | Artig
+LIED | 1 | Gesungenes Musikstück | Song
+LIEF | 1 | Laufen: er ... | Rannte
+LIGA | 1 | Spielklasse | Bundes...
+LILA | 1 | Farbe | Violett
+LIMA | 2 | Hauptstadt Perus | Peruanische Metropole
+LINK | 1 | Verweis im Internet | Hyperlink
+LINZ | 2 | Stadt in Oberösterreich | Stadt an der Donau (Ö)
+LIST | 2 | Schlauheit | Trick
+LOCH | 1 | Öffnung | Lücke
+LOGE | 2 | Theaterplatz | Freimaurer...
+LOGO | 1 | Firmenzeichen | Markenbild
+LOHN | 1 | Bezahlung für Arbeit | Gehalt
+LUFT | 1 | Atmen wir ein | Atmosphäre
+LUPE | 1 | Vergrößerungsglas | Detektiv-Werkzeug
+LUST | 1 | Verlangen | Begierde
+MAAT | 3 | Unteroffizier zur See | Matrose mit Rang
+MAHL | 2 | Mahlzeit | Festessen
+MAIL | 1 | Elektronischer Brief | E-Post
+MAIN | 2 | Fluss durch Frankfurt | Fluss in Franken
+MAIS | 1 | Popcorn-Pflanze | Kukuruz
+MALI | 2 | Staat in Westafrika | Staat mit Timbuktu
+MAMA | 1 | Mutter (Kinderwort) | Mutti
+MANN | 1 | Erwachsener (männlich) | Ehemann
+MARK | 2 | Knochen... | Alte Währung
+MAST | 2 | Segelstange | Fahnenstange
+MATT | 2 | Erschöpft | Schachende
+MAUS | 1 | Kleines Nagetier | PC-Zubehör
+MEER | 1 | Großes Salzwasser | Ozean
+MEHL | 1 | Backzutat | Gemahlenes Korn
+MEHR | 1 | Gegenteil von „weniger“ | Zusätzlich
+MEIN | 1 | Fürwort: ... Haus | Gegenteil von „dein“
+MEMO | 1 | Notiz | Gedächtnisstütze
+MILD | 1 | Sanft, gemäßigt | Nicht scharf
+MINE | 2 | Bergwerk | Bleistiftfüllung
+MIST | 1 | Dung | Unsinn (ugs.)
+MODE | 1 | Kleidungstrend | Zeitgeschmack
+MOFA | 1 | Leichtes Motorrad | Kleinkraftrad
+MOND | 1 | Erdtrabant | Leuchtet nachts
+MOOR | 2 | Sumpfgebiet | Torfgebiet
+MOOS | 1 | Grünes Waldpolster | Geld (ugs.)
+MORD | 1 | Tötungsverbrechen | Krimi-Thema
+MOST | 2 | Fruchtsaft | Apfelwein (südd.)
+MUND | 1 | Öffnung zum Essen | Lippen und Zähne
+MUSE | 3 | Göttin der Künste | Inspiration
+MUSS | 1 | Zwang | „Ich ... los“
+NABE | 3 | Radmitte | Achsenteil
+NAHE | 1 | In der Nähe | Nicht fern
+NAHM | 1 | Nehmen: er ... | Griff zu
+NAHT | 1 | Genähte Linie | Saum
+NAME | 1 | Bezeichnung einer Person | Vorname
+NASE | 1 | Riechorgan | Zinken (ugs.)
+NASS | 1 | Feucht | Gegenteil von „trocken“
+NEID | 1 | Missgunst | Eifersucht
+NEIN | 1 | Gegenteil von „ja“ | Ablehnung
+NERV | 2 | Reizleitung im Körper | „Der ... tötet“
+NEST | 1 | Vogelbehausung | Brutstätte
+NETT | 1 | Freundlich | Sympathisch
+NETZ | 1 | Fangnetz | Internet
+NEUN | 1 | Zahl nach acht | Kegel-Anzahl
+NIXE | 2 | Wassergeist (weiblich) | Meerjungfrau
+NOCH | 1 | Weiterhin | Außerdem
+NORD | 1 | Himmelsrichtung | Gegenteil von „Süd“
+NOTE | 1 | Schulbewertung | Musikzeichen
+NULL | 1 | Zahl vor eins | Nichts
+NUSS | 1 | Hartschalige Frucht | Harte ... zu knacken
+OASE | 1 | Wasser in der Wüste | Ruheort
+OBEN | 1 | Gegenteil von „unten“ | In der Höhe
+OBST | 1 | Äpfel, Birnen und Co. | Früchte
+ODEM | 3 | Atem (dichterisch) | Lebenshauch
+ODER | 1 | Bindewort: entweder ... | Grenzfluss zu Polen
+OEDE | 2 | Langweilig, trostlos | Verlassen
+OESE | 2 | Metallring | Haken und ...
+OFEN | 1 | Heizgerät | Backofen
+OGER | 3 | Märchen-Ungeheuer | Shrek ist einer
+OHNE | 1 | Gegenteil von „mit“ | Exklusive
+OMAN | 2 | Sultanat am Golf | Staat mit Maskat
+OMEN | 2 | Vorzeichen | Böses Zeichen
+OPAL | 3 | Schmuckstein | Schillernder Edelstein
+OPER | 1 | Musiktheater | Bühnenwerk mit Gesang
+OPUS | 2 | Musikalisches Werk | Kunstwerk (lat.)
+ORCA | 2 | Schwertwal | Killerwal
+OSLO | 2 | Hauptstadt Norwegens | Norwegische Metropole
+OTTO | 1 | Männername | Palindrom-Vorname
+OVAL | 1 | Eiförmig | Ellipse
+PAAR | 1 | Zwei Zusammengehörige | Duo
+PAKT | 2 | Bündnis | Vertrag
+PAPA | 1 | Vater (Kinderwort) | Papst (ital.)
+PARK | 1 | Grünanlage | Abstellen (Auto)
+PASS | 1 | Ausweis für Reisen | Bergübergang
+PAUL | 1 | Männername | Apostel
+PECH | 1 | Gegenteil von „Glück“ | Klebriges Harz
+PERU | 2 | Land der Inka | Staat mit Lima
+PFAD | 1 | Schmaler Weg | Trampelpfad
+PFAU | 1 | Vogel mit Rad | Eitler Vogel
+PFUI | 1 | Ausruf des Ekels | Igitt!
+PILZ | 1 | Waldgewächs | Champignon
+PLAN | 1 | Vorhaben | Entwurf
+PLUS | 1 | Mehr | Pluszeichen
+POLO | 2 | Ballsport zu Pferd | Hemd mit Kragen
+POST | 1 | Briefe und Pakete | Gelber Briefdienst
+PRAG | 1 | Hauptstadt Tschechiens | Goldene Stadt
+PULT | 2 | Schreibständer | Rednerpult
+PUMA | 2 | Raubkatze | Silberlöwe
+QUAL | 1 | Pein | Tortur
+QUIZ | 1 | Ratespiel | Wissenstest
+RABE | 1 | Schwarzer Vogel | Krähen-Verwandter
+RAHM | 2 | Sahne | Obers
+RAND | 1 | Begrenzung | Kante
+RANG | 1 | Stellung | Theaterplatz
+RATE | 1 | Teilzahlung | Monatszahlung
+RAUM | 1 | Zimmer | Weltall
+RAUS | 1 | „Hinaus!“ (ugs.) | Hinaus
+REDE | 1 | Ansprache | Vortrag
+REIF | 1 | Erntefertig | Raureif
+REIN | 1 | Sauber | Pur
+REIS | 1 | Asiatisches Getreide | Risotto-Basis
+REST | 1 | Übriggebliebenes | Rückstand
+RIEF | 1 | Rufen: er ... | Schrie
+RIFF | 2 | Korallenbank | Gitarrenmotiv
+RIGA | 2 | Hauptstadt Lettlands | Lettische Metropole
+RIND | 1 | Kuh oder Ochse | Hornvieh
+RING | 1 | Fingerschmuck | Boxkampffläche
+RISS | 1 | Spalt | Sprung
+ROBE | 2 | Festliches Gewand | Richtertracht
+ROCK | 1 | Kleidungsstück | Musikrichtung
+ROSA | 1 | Hellrot | Pink
+ROSE | 1 | Blume mit Dornen | Königin der Blumen
+ROSS | 2 | Pferd (gehoben) | Gaul
+ROST | 1 | Eisenoxid | Grillgitter
+RUHE | 1 | Stille | Gelassenheit
+RUHM | 1 | Ehre, Berühmtheit | Glanz
+RUHR | 2 | Fluss im Ruhrgebiet | ...pott
+RUND | 1 | Kreisförmig | Etwa, ungefähr
+SAAL | 1 | Großer Raum | Halle
+SAAR | 2 | Fluss im Saarland | Nebenfluss der Mosel
+SACK | 1 | Großer Beutel | Jutebeutel
+SAFE | 2 | Tresor | Geldschrank
+SAFT | 1 | Fruchtgetränk | Energie (ugs.)
+SAGA | 2 | Heldengeschichte | Nordische Erzählung
+SAGE | 2 | Überlieferte Erzählung | Legende
+SALZ | 1 | Würze aus dem Meer | Natriumchlorid
+SAND | 1 | Feine Körnchen am Strand | Wüstenboden
+SANG | 1 | Singen: er ... | Trällerte
+SARG | 1 | Totenkiste | Schrein
+SATT | 1 | Nicht mehr hungrig | Gesättigt
+SATZ | 1 | Folge von Wörtern | Sprung
+SAUM | 2 | Kleiderrand | Genähte Kante
+SEHR | 1 | Äußerst | Überaus
+SEIL | 1 | Strick | Tau
+SEIN | 1 | Existenz | Zustand
+SEKT | 1 | Schaumwein | Prickelnder Wein
+SENF | 1 | Würstchen-Würze | Mostrich
+SIEB | 1 | Küchengerät zum Abgießen | Durchschlag
+SIEG | 1 | Gewinn | Triumph
+SILO | 2 | Getreidespeicher | Futterspeicher
+SINN | 1 | Bedeutung | Verstand
+SOFA | 1 | Polstermöbel | Couch
+SOHN | 1 | Männliches Kind | Junior
+SOJA | 2 | Bohnenart | Tofu-Basis
+SOLL | 2 | Pflicht | Haben und ...
+SPAM | 2 | Werbemüll im Postfach | Junk-Mail
+SPOT | 2 | Werbefilm | Scheinwerfer
+SPUK | 2 | Geistererscheinung | Gespenstertreiben
+STAB | 1 | Stock | Taktstock
+STAR | 1 | Berühmter Mensch | Singvogel
+STAU | 1 | Verkehrsstau | Blechlawine
+STEG | 2 | Schmale Brücke | Bootsanleger
+STIL | 1 | Art und Weise | Eleganz
+SUED | 1 | Himmelsrichtung | Mittag (Richtung)
+SYLT | 1 | Nordseeinsel | Insel mit Hindenburgdamm
+TABU | 2 | Verbotenes Thema | No-Go
+TACO | 2 | Mexikanische Teigtasche | Mexiko-Snack
+TAKT | 1 | Rhythmus | Feingefühl
+TANZ | 1 | Bewegung zur Musik | Walzer
+TAUB | 1 | Kann nicht hören | Gehörlos
+TAXI | 1 | Mietwagen mit Fahrer | Droschke
+TEAM | 1 | Mannschaft | Gruppe
+TEER | 2 | Schwarzer Straßenbelag | Asphalt-Zutat
+TEIG | 1 | Masse zum Backen | Pizza...
+TEIL | 1 | Stück | Anteil
+TEXT | 1 | Geschriebenes | Wortlaut
+TICK | 2 | Spleen | Marotte
+TIEF | 1 | Gegenteil von „hoch“ | Wetter: Tiefdruckgebiet
+TIER | 1 | Lebewesen | Vieh
+TIPP | 1 | Ratschlag | Hinweis
+TOFU | 2 | Sojaquark | Veggie-Würfel
+TOGA | 2 | Römisches Gewand | Römerkleidung
+TOGO | 2 | Staat in Westafrika | Staat mit Lomé
+TOLL | 1 | Super | Prima
+TOOL | 1 | Werkzeug (engl.) | Hilfsprogramm
+TOPF | 1 | Kochgefäß | Pott
+TORF | 2 | Moorboden | Brennstoff aus dem Moor
+TOUR | 1 | Ausflug | Rundfahrt
+TRAM | 2 | Straßenbahn | Bim (österr.)
+TREU | 1 | Loyal | Ergeben
+TRIO | 1 | Dreiergruppe | Dreigespann
+TROG | 2 | Futterbehälter | Wanne
+TRUG | 3 | Lug und ... | Täuschung
+TUBA | 2 | Großes Blasinstrument | Tiefes Blech
+TUBE | 1 | Zahnpasta-Behälter | Quetschbehälter
+TUCH | 1 | Stück Stoff | Lappen
+TUER | 1 | Eingang zum Zimmer | Pforte
+TURM | 1 | Hohes Bauwerk | Schachfigur
+UFER | 1 | Rand eines Gewässers | Gestade
+UNKE | 3 | Kröte | Schwarzseher
+UNZE | 3 | Altes Gewichtsmaß | Feinunze (Gold)
+URAL | 2 | Gebirge in Russland | Grenze Europa/Asien
+URNE | 2 | Wahlbehälter | Aschegefäß
+USER | 1 | Nutzer (engl.) | Anwender
+VASE | 1 | Blumengefäß | Gefäß für Sträuße
+VENE | 2 | Blutgefäß zum Herzen | Blutader
+VIEH | 1 | Nutztiere | Herde
+VIEL | 1 | Gegenteil von „wenig“ | Massenhaft
+VIER | 1 | Zahl nach drei | Quartett-Zahl
+VOLK | 1 | Nation | Bienenschwarm
+VOLL | 1 | Gegenteil von „leer“ | Betrunken (ugs.)
+WABE | 2 | Bienenzelle | Honigzelle
+WACH | 1 | Nicht schlafend | Munter
+WADE | 1 | Hinterer Unterschenkel | Krampf-Stelle
+WAHL | 1 | Abstimmung | Entscheidung
+WAHR | 1 | Richtig | Zutreffend
+WALD | 1 | Viele Bäume | Forst
+WAND | 1 | Mauer im Zimmer | Fels...
+WARE | 1 | Handelsgut | Produkt
+WARM | 1 | Gegenteil von „kalt“ | Mollig
+WATT | 2 | Nordsee-Schlick | Einheit der Leistung
+WEIL | 1 | Begründendes Bindewort | Da
+WEIN | 1 | Traubengetränk | Rebensaft
+WEIT | 1 | Gegenteil von „eng“ | Fern
+WELT | 1 | Erde | Globus
+WENN | 1 | Bedingendes Bindewort | Falls
+WERK | 1 | Fabrik | Opus
+WERT | 1 | Preis | Bedeutung
+WEST | 1 | Himmelsrichtung | Abend (Richtung)
+WIEN | 1 | Hauptstadt Österreichs | Stadt an der Donau
+WIKI | 1 | Mitmach-Lexikon im Netz | Online-Lexikon (Typ)
+WILD | 1 | Ungezähmt | Wildbret
+WILL | 1 | „Ich ... das!“ | Möchte unbedingt
+WIND | 1 | Bewegte Luft | Brise
+WOHL | 1 | Gut, gesund | Zum ...!
+WOLF | 1 | Wildes Hundetier | Rudeltier
+WORT | 1 | Sprachliche Einheit | Versprechen
+WURM | 1 | Regen... | Tier ohne Beine
+YOGA | 1 | Indische Übungslehre | Sonnengruß-Sport
+ZAHL | 1 | Ziffer | Nummer
+ZAHM | 1 | Gegenteil von „wild“ | Gezähmt
+ZAHN | 1 | Kauwerkzeug | Weisheits...
+ZANK | 2 | Streit | Zoff
+ZART | 1 | Sanft | Weich
+ZAUN | 1 | Gartengrenze | Gatter
+ZEHE | 1 | Glied am Fuß | Knoblauch...
+ZEHN | 1 | Zahl nach neun | Dutzend minus zwei
+ZEIT | 1 | Die Uhr misst sie | Ära
+ZELT | 1 | Campingunterkunft | Zirkus...
+ZIEL | 1 | Endpunkt | Absicht
+ZIMT | 1 | Gewürz für Milchreis | Bratapfel-Gewürz
+ZINK | 2 | Metall | Verzinktes Metall
+ZINN | 2 | Metall für Becher | ...soldat
+ZOFF | 2 | Streit (ugs.) | Krach
+ZOLL | 2 | Abgabe an der Grenze | Längenmaß (2,54 cm)
+ZONE | 2 | Bereich, Gebiet | Sperrgebiet
+ZOOM | 1 | Vergrößerung | Videokonferenz-Programm
+ZOPF | 1 | Geflochtenes Haar | Hefegebäck
+ZWEI | 1 | Zahl nach eins | Paar

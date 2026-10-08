@@ -1,0 +1,543 @@
+# Wörter mit 5 Buchstaben
+# Format:  WORT | Level | Hinweis leicht | Hinweis schwer
+#   WORT   = nur A-Z in Großbuchstaben (Ä=AE, Ö=OE, Ü=UE, ß=SS)
+#   Level  = 1 jeder kennt's, 2 Allgemeinwissen, 3 Rätsel-Profi
+#   Hinweis schwer darf leer bleiben, dann wird der leichte genommen.
+# Zeilen mit # am Anfang sind Kommentare, leere Zeilen werden ignoriert.
+
+ABEND | 1 | Tageszeit vor der Nacht | Feierabend-Zeit
+ADLER | 1 | Greifvogel, Wappentier | König der Lüfte
+AEHRE | 2 | Getreide-Blütenstand | Kornspitze
+ALARM | 1 | Warnsignal | Sirenen-Geheul
+ALBUM | 1 | Fotobuch | Langspielplatte
+ALIBI | 2 | Nachweis der Abwesenheit | Entlastung im Krimi
+ALLEE | 1 | Baumgesäumte Straße | Prachtstraße
+ALLER | 3 | Nebenfluss der Weser | Fluss in Niedersachsen
+ALPEN | 1 | Höchstes Gebirge Europas | Gebirge mit Zugspitze
+ALTAR | 2 | Opfertisch in der Kirche | Kirchentisch
+AMPEL | 1 | Verkehrslicht | Rot-Gelb-Grün-Signal
+AMSEL | 1 | Schwarzer Singvogel | Schwarzdrossel
+ANGEL | 1 | Gerät zum Fischen | Türzapfen
+ANGST | 1 | Furcht | Bammel
+ANKER | 1 | Hält das Schiff fest | Halt, Stütze
+APFEL | 1 | Kernobst | Eva-Frucht
+APRIL | 1 | Vierter Monat | Scherz-Monat
+ARCHE | 2 | Noahs Schiff | Rettungsschiff (Bibel)
+ARENA | 1 | Kampfplatz, Stadion | Manege
+ARMEE | 1 | Heer, Truppen | Streitkräfte
+AROMA | 1 | Duft, Geschmack | Würze
+ATHEN | 1 | Hauptstadt Griechenlands | Stadt der Akropolis
+ATLAS | 1 | Kartenbuch | Gebirge in Marokko
+BACKE | 1 | Wange | Pausbacke
+BADEN | 1 | In der Wanne liegen | Landesteil im Südwesten
+BASEL | 2 | Stadt am Rheinknie | Schweizer Grenzstadt
+BAUCH | 1 | Körpermitte | Wampe
+BAUEN | 1 | Errichten | Konstruieren
+BAUER | 1 | Landwirt | Schachfigur
+BEERE | 1 | Kleine Frucht | Him... oder Erd...
+BESEN | 1 | Kehrgerät | Hexen-Fluggerät
+BETEN | 1 | Zu Gott sprechen | Ein Vaterunser sprechen
+BIBEL | 1 | Heilige Schrift | Buch der Bücher
+BIBER | 1 | Nagetier, baut Dämme | Damm-Baumeister
+BIENE | 1 | Honigsammlerin | Fleißiges Insekt
+BIRKE | 1 | Baum mit weißer Rinde | Laubbaum
+BIRNE | 1 | Kernobst | Glühlampe
+BLASS | 1 | Bleich | Fahl
+BLATT | 1 | Teil des Baumes | Papierbogen
+BLICK | 1 | Augenaufschlag | Aussicht
+BLIND | 1 | Kann nicht sehen | Ohne Augenlicht
+BLITZ | 1 | Gewitterlicht | Fotolicht
+BLUME | 1 | Blühende Pflanze | Bukett des Weins
+BLUSE | 1 | Damenhemd | Oberteil
+BODEN | 1 | Fußboden | Erde, Grund
+BOHNE | 1 | Hülsenfrucht | Kaffee...
+BOMBE | 1 | Sprengkörper | Riesenerfolg (ugs.)
+BOXEN | 1 | Faustkampf | Faustkampf-Sport
+BRAUN | 1 | Farbe von Schokolade | Gebräunt
+BRAUT | 1 | Frau bei der Hochzeit | Verlobte
+BRIEF | 1 | Schriftliche Post | Schreiben
+BRUST | 1 | Vorne am Oberkörper | Schwimmstil
+BUCHE | 1 | Laubbaum | Rotbuche
+CHAOS | 1 | Durcheinander | Wirrwarr
+CHILE | 2 | Land in Südamerika | Staat mit Santiago
+CHINA | 1 | Land der Mitte | Volksrepublik in Asien
+CLOWN | 1 | Spaßmacher im Zirkus | Dummer August
+COMIC | 1 | Bildergeschichte | Sprechblasen-Heft
+CREME | 1 | Hautsalbe | Süßspeise
+CURRY | 1 | Gewürzmischung | Indisches Gericht
+DACHS | 1 | Waldtier mit Bau | Grimbart (Fabel)
+DAMPF | 1 | Wasser in Gasform | Dunst
+DATEI | 1 | Gespeichertes Dokument | Computerdokument
+DATUM | 1 | Kalendertag | Termin
+DAUER | 1 | Zeitspanne | Länge (zeitlich)
+DAVOS | 3 | Schweizer Kurort | Weltwirtschaftsforum-Ort
+DECKE | 1 | Zum Zudecken im Bett | Zimmerdecke
+DEGEN | 2 | Fechtwaffe | Stichwaffe
+DEICH | 1 | Schutzwall gegen Flut | Damm an der Küste
+DELHI | 2 | Indische Metropole | Neu-... (Indien)
+DICHT | 1 | Undurchlässig | Eng beieinander
+DIELE | 2 | Flur, Holzbrett | Fußbodenbrett
+DISCO | 1 | Tanzlokal | Club
+DOLCH | 2 | Kurze Stichwaffe | Stilett
+DONAU | 1 | Fluss durch Wien | Strom zum Schwarzen Meer
+DRAMA | 1 | Schauspiel | Theater (übertragen)
+DRUCK | 1 | Pressung | Stress
+DUELL | 2 | Zweikampf | Showdown
+DUENE | 1 | Sandhügel am Meer | Wanderdüne
+DUENN | 1 | Gegenteil von „dick“ | Schmal, mager
+DUNST | 2 | Nebel, Dampf | Diesigkeit
+DURST | 1 | Verlangen nach Trinken | Brand (ugs.)
+DUZEN | 1 | „Du“ sagen | Per du sein
+EBENE | 1 | Flaches Land | Niveau
+ECHSE | 1 | Reptil | Eidechse
+EICHE | 1 | Laubbaum mit Eicheln | Hartholzbaum
+EIGEN | 1 | Selbst gehörend | Seltsam
+EILEN | 1 | Sich beeilen | Hasten
+EIMER | 1 | Behälter mit Henkel | Kübel
+ELEND | 1 | Not, Armut | Jammer
+ELITE | 2 | Auslese der Besten | Oberschicht
+EMAIL | 1 | Elektronische Post | Nachricht im Netz
+ENGEL | 1 | Himmlisches Wesen | Schutzgeist
+ENKEL | 1 | Kind des Kindes | Großkind
+ERBEN | 1 | Nachlass bekommen | Nachfolgen
+ERBSE | 1 | Grünes Hülsengemüse | Kugelgemüse
+ERNST | 1 | Gegenteil von „Spaß“ | Männername
+ERNTE | 1 | Ertrag vom Feld | Lese
+ESSEN | 1 | Mahlzeit | Stadt im Ruhrgebiet
+ESSIG | 1 | Saure Würze | Salatsäure
+ETAGE | 1 | Stockwerk | Geschoss
+ETHIK | 2 | Sittenlehre | Moralphilosophie
+EXTRA | 1 | Zusätzlich | Sonder...
+FABEL | 1 | Tiergeschichte mit Moral | Lehrerzählung
+FAHNE | 1 | Flagge | Alkoholgeruch (ugs.)
+FAHRT | 1 | Reise | Tempo
+FALKE | 1 | Greifvogel | Jagdvogel
+FALTE | 1 | Knick im Stoff | Runzel
+FARBE | 1 | Rot, Blau oder Gelb | Kartenfarbe
+FASAN | 2 | Hühnervogel | Jagdvogel
+FAUNA | 2 | Tierwelt | Gegenstück zur Flora
+FAUST | 1 | Geballte Hand | Goethe-Drama
+FEDER | 1 | Vogelkleid-Teil | Sprungfeder
+FEGEN | 1 | Kehren | Ausfegen
+FEIER | 1 | Fest | Party
+FEIGE | 1 | Süße Mittelmeerfrucht | Feigling (weiblich)
+FELGE | 2 | Radteil für den Reifen | Turnübung am Reck
+FELIX | 1 | Männername | Glücklich (lat.)
+FERNE | 1 | Weite Entfernung | Fremde
+FERSE | 1 | Hinterer Fuß | Achilles' Schwachstelle
+FIBEL | 2 | Lesebuch (1. Klasse) | Gewandnadel
+FISCH | 1 | Kiemen-Atmer | Sternzeichen
+FLACH | 1 | Eben | Seicht
+FLINK | 1 | Schnell, behände | Wieselflink
+FLORA | 2 | Pflanzenwelt | Frauenname
+FLOSS | 1 | Holzfahrzeug | Treibfahrzeug
+FLUCH | 1 | Verwünschung | Bannspruch
+FLUSS | 1 | Fließendes Gewässer | Strom
+FOEHN | 2 | Warmer Fallwind | Haartrockner
+FOKUS | 2 | Brennpunkt | Schwerpunkt
+FOLIE | 1 | Dünne Kunststoffhaut | Frischhalte...
+FORUM | 2 | Diskussionsplattform | Römischer Marktplatz
+FRAGE | 1 | Gegenteil von „Antwort“ | Problem
+FRECH | 1 | Vorlaut | Dreist
+FREMD | 1 | Unbekannt | Ausländisch
+FRIST | 2 | Zeitraum bis Termin | Deadline
+FROMM | 1 | Gläubig | Gottesfürchtig
+FROST | 1 | Kälte unter null | Eiseskälte
+FUCHS | 1 | Schlauer Rotrock | Reineke
+FUENF | 1 | Zahl nach vier | Schlechte Schulnote
+FULDA | 3 | Stadt in Hessen | Bischofsstadt in Hessen
+FUNKE | 1 | Glühendes Teilchen | Zündende Idee
+GABEL | 1 | Essbesteck mit Zinken | Weg...
+GALLE | 2 | Gallenblase | Bitterkeit
+GEBEN | 1 | Schenken | Reichen
+GECKO | 2 | Kletternde Echse | Wandechse
+GEHEN | 1 | Zu Fuß laufen | Schreiten
+GEIER | 1 | Aasfresser | Pleitegeier
+GEIGE | 1 | Streichinstrument | Violine
+GEIST | 1 | Gespenst | Verstand
+GENAU | 1 | Exakt | Präzise
+GENIE | 1 | Hochbegabter Mensch | Überflieger
+GHANA | 2 | Staat in Westafrika | Staat mit Accra
+GLANZ | 1 | Schimmer | Pracht
+GLATT | 1 | Rutschig | Eben, ohne Falten
+GNADE | 2 | Erbarmen | Gunst
+GOTHA | 3 | Stadt in Thüringen | Adelskalender
+GRILL | 1 | Bratrost | Barbecue-Gerät
+GROSS | 1 | Gegenteil von „klein“ | Riesig
+GRUBE | 1 | Loch in der Erde | Bergwerk
+GRUEN | 1 | Farbe des Grases | Ampelfarbe: Gehen
+GRUND | 1 | Ursache | Boden
+GRUSS | 1 | Hallo oder Servus | Willkommen
+GUMMI | 1 | Elastischer Stoff | Radiergummi
+GURKE | 1 | Gemüse für Salat | Essig...
+HABEN | 1 | Besitzen | Soll und ...
+HAFEN | 1 | Anlegeplatz für Schiffe | Zufluchtsort
+HAGEL | 1 | Eiskörner vom Himmel | Schauer aus Eis
+HALLE | 1 | Großer Raum | Stadt an der Saale
+HAUPT | 2 | Kopf (gehoben) | Ober...
+HEBEN | 1 | Hochnehmen | Stemmen
+HECHT | 1 | Raubfisch im Süßwasser | Kopfsprung
+HECKE | 1 | Gartenzaun aus Büschen | Strauchzaun
+HEIDE | 2 | Landschaft mit Erika | Nichtchrist
+HEISS | 1 | Sehr warm | Glühend
+HERDE | 1 | Gruppe von Tieren | Rudel
+HEUTE | 1 | An diesem Tag | Gegenteil von „morgen“
+HOBBY | 1 | Freizeitbeschäftigung | Steckenpferd
+HOEHE | 1 | Ausmaß nach oben | Gipfel
+HOLEN | 1 | Herbringen | Abholen
+HONIG | 1 | Süßes von der Biene | Imker-Produkt
+HOTEL | 1 | Herberge | Gasthaus
+HUMOR | 1 | Sinn für Witz | Lustigkeit
+HYMNE | 2 | Lobgesang | National...
+IDYLL | 3 | Friedliche Szene | Ländliche Ruhe
+ILLER | 3 | Nebenfluss der Donau | Fluss im Allgäu
+IMAGE | 2 | Ansehen, Ruf | Erscheinungsbild
+IMKER | 1 | Bienenzüchter | Honigmacher
+INDEX | 2 | Verzeichnis | Register
+INDUS | 3 | Fluss in Pakistan | Strom in Südasien
+INSEL | 1 | Land im Meer | Eiland
+JACKE | 1 | Kurzer Mantel | Blouson
+JAGEN | 1 | Pirschen | Verfolgen
+JAPAN | 1 | Land der Sonne | Inselstaat in Asien
+JEMEN | 2 | Staat am Roten Meer | Staat mit Sanaa
+JETZT | 1 | In diesem Moment | Nun
+JONAS | 1 | Männername | Prophet im Wal
+JUBEL | 1 | Freudengeschrei | Begeisterung
+KABEL | 1 | Elektrische Leitung | Strippe
+KAESE | 1 | Gouda oder Emmentaler | Milchprodukt
+KAIRO | 2 | Hauptstadt Ägyptens | Stadt am Nil
+KAKAO | 1 | Schoko-Getränk | Bohne für Schokolade
+KAMEL | 1 | Wüstentier mit Höcker | Wüstenschiff
+KANAL | 1 | Künstlicher Wasserweg | Fernsehsender
+KANNE | 1 | Gefäß für Kaffee | Gießgefäß
+KANTE | 1 | Rand, Ecke | Grat
+KAPPE | 1 | Mütze | Schirmmütze
+KARMA | 2 | Schicksal (ind.) | Folge der Taten
+KARTE | 1 | Landkarte | Eintrittsticket
+KASSE | 1 | Ort zum Bezahlen | Geldkasten
+KATAR | 2 | Emirat am Golf | Staat mit Doha
+KATER | 1 | Männliche Katze | Nachwehen vom Rausch
+KATZE | 1 | Miezekatze | Stubentiger
+KAUEN | 1 | Mit Zähnen zerkleinern | Mampfen
+KEGEL | 1 | Spitze Form | Spielfigur beim Kegeln
+KELLE | 1 | Suppenlöffel | Signalstab
+KENIA | 2 | Staat in Ostafrika | Staat mit Nairobi
+KERZE | 1 | Wachslicht | Turnübung
+KETTE | 1 | Schmuck um den Hals | Fahrrad...
+KIOSK | 1 | Verkaufsbude | Zeitungsstand
+KISTE | 1 | Holzkasten | Kasten
+KLAGE | 2 | Gerichtliche Beschwerde | Jammern
+KLANG | 1 | Ton | Schall
+KLAUE | 2 | Kralle | Handschrift (ugs.)
+KLAUS | 1 | Männername | Niko...
+KLEID | 1 | Damengewand | Robe
+KLEIN | 1 | Gegenteil von „groß“ | Winzig
+KLIMA | 1 | Wetter über Jahre | Atmosphäre (im Team)
+KNALL | 1 | Lauter Krach | Peng
+KNAPP | 1 | Gerade so | Spärlich
+KNOPF | 1 | Verschluss am Hemd | Taste
+KOALA | 1 | Australischer Kletterer | Eukalyptus-Fresser
+KOBRA | 2 | Giftschlange | Brillenschlange
+KOELN | 1 | Domstadt am Rhein | Rheinmetropole
+KOHLE | 1 | Brennstoff | Geld (ugs.)
+KOMET | 2 | Schweifstern | Halley ist einer
+KOMMA | 1 | Satzzeichen | Beistrich
+KONTO | 1 | Bankverbindung | Bankkonto
+KOPIE | 1 | Abschrift | Duplikat
+KOREA | 2 | Halbinsel in Asien | Land mit Seoul (Süd)
+KRAFT | 1 | Stärke | Energie
+KRAKE | 1 | Achtarmiges Meerestier | Oktopus
+KRANK | 1 | Nicht gesund | Unwohl
+KRAUT | 1 | Kohl, Grünzeug | Sauer...
+KREIS | 1 | Runde Form | Landkreis
+KREUZ | 1 | Christliches Symbol | Rücken (ugs.)
+KRONE | 1 | Kopfschmuck des Königs | Zahnersatz
+KRUMM | 1 | Nicht gerade | Gebogen
+KUGEL | 1 | Runder Körper | Geschoss
+KUNST | 1 | Malerei, Bildhauerei | Können
+KURVE | 1 | Biegung der Straße | Rundung
+LACHS | 1 | Rosa Speisefisch | Räucherfisch
+LAMPE | 1 | Leuchte | Licht
+LANZE | 2 | Stoßwaffe | Ritterspieß
+LASER | 2 | Gebündeltes Licht | Lichtstrahl-Gerät
+LATTE | 1 | Holzleiste | Kaffee mit Milch (kurz)
+LAURA | 1 | Frauenname | Weiblicher Vorname
+LEBEN | 1 | Existenz | Dasein
+LEBER | 1 | Entgiftungsorgan | Organ (Galle)
+LEDER | 1 | Gegerbte Haut | Fußball (ugs.)
+LEGEN | 1 | Hinlegen | Eier ...
+LEHRE | 1 | Ausbildung | Unterricht
+LEISE | 1 | Gegenteil von „laut“ | Still
+LESEN | 1 | Buch anschauen | Wein ernten
+LEVEL | 1 | Stufe im Videospiel | Niveau
+LICHT | 1 | Helligkeit | Lampe
+LIMIT | 1 | Grenze | Obergrenze
+LINIE | 1 | Strich | Busverbindung
+LINKS | 1 | Gegenteil von „rechts“ | Politische Richtung
+LINSE | 1 | Hülsenfrucht | Kameraobjektiv
+LIPPE | 1 | Rand des Mundes | Fluss in NRW
+LISTE | 1 | Aufzählung | Verzeichnis
+LOBBY | 2 | Hotelhalle | Interessengruppe
+LOBEN | 1 | Anerkennen | Rühmen
+LOEWE | 1 | König der Tiere | Sternzeichen
+LOGIN | 1 | Anmeldung am PC | Einloggen
+LOIRE | 3 | Fluss in Frankreich | Schlösser-Fluss
+LOTTO | 1 | Glücksspiel mit Zahlen | 6 aus 49
+LUCHS | 1 | Wildkatze | Scharfäugiges Raubtier
+LUEGE | 1 | Unwahrheit | Flunkerei
+LUKAS | 1 | Männername | Evangelist
+LUNGE | 1 | Atmungsorgan | Grüne ... (Park)
+LUXUS | 1 | Verschwendung, Pracht | Prunk
+MAGEN | 1 | Verdauungsorgan | Bauch (ugs.)
+MAGER | 1 | Dünn, fettarm | Spärlich
+MAGIE | 1 | Zauberei | Hexerei
+MALEN | 1 | Bilder pinseln | Zeichnen
+MALER | 1 | Künstler mit Pinsel | Anstreicher
+MALTA | 2 | Inselstaat im Mittelmeer | Staat mit Valletta
+MANGO | 1 | Tropische Frucht | Gelbe Steinfrucht
+MARIA | 1 | Frauenname | Mutter Jesu
+MARKT | 1 | Handelsplatz | Wochen...
+MASKE | 1 | Verkleidung des Gesichts | Larve
+MATHE | 1 | Rechnen in der Schule | Schulfach (kurz)
+MAUER | 1 | Wand aus Stein | Berliner ...
+MEISE | 1 | Kleiner Singvogel | Blau...
+MENGE | 1 | Anzahl | Masse
+MENSA | 1 | Uni-Kantine | Studenten-Speisesaal
+MESSE | 1 | Gottesdienst | Ausstellung
+MIETE | 1 | Wohnkosten | Pacht
+MILCH | 1 | Kuh-Erzeugnis | Weißes Getränk
+MINZE | 1 | Teekraut | Pfefferminze
+MIXER | 1 | Küchengerät | Barkeeper
+MODEL | 1 | Fotomodell | Mannequin
+MOEWE | 1 | Seevogel | Küstenvogel
+MONAT | 1 | Etwa vier Wochen | Zwölftel Jahr
+MOSEL | 2 | Weinfluss bei Trier | Nebenfluss des Rheins
+MOTIV | 2 | Beweggrund | Bildthema
+MOTOR | 1 | Antrieb | Maschine
+MOTTE | 1 | Kleidermotte | Falter
+MUEDE | 1 | Schläfrig | Erschöpft
+MUEHE | 1 | Anstrengung | Plackerei
+MUSIK | 1 | Klang-Kunst | Melodien
+MUTIG | 1 | Tapfer | Kühn
+NABEL | 1 | Bauchnabel | Mittelpunkt
+NACHT | 1 | Dunkle Tageszeit | Gegenteil von „Tag“
+NADEL | 1 | Zum Nähen | Tannen...
+NAEHE | 1 | Geringe Entfernung | Nachbarschaft
+NAGEL | 1 | Kommt in die Wand | Finger...
+NARBE | 1 | Verheilte Wunde | Wundmal
+NEBEL | 1 | Dichter Dunst | Suppe (ugs.)
+NEFFE | 1 | Sohn der Schwester | Verwandter
+NEPAL | 2 | Himalaya-Staat | Staat mit Kathmandu
+NICHT | 1 | Verneinung | Keineswegs
+NIERE | 1 | Organ für den Urin | Filterorgan
+NIGER | 3 | Fluss in Westafrika | Staat in der Sahelzone
+NOBEL | 2 | Vornehm | ...preis
+NOTIZ | 1 | Kurze Aufzeichnung | Vermerk
+NUDEL | 1 | Teigware | Spaghetti
+OPFER | 1 | Leidtragender | Gabe an Götter
+OPTIK | 2 | Lehre vom Licht | Aussehen
+ORBIT | 2 | Umlaufbahn | Satellitenbahn
+ORDEN | 2 | Auszeichnung | Mönchsgemeinschaft
+ORGEL | 1 | Kircheninstrument | Pfeifeninstrument
+OSTEN | 1 | Sonnenaufgang-Richtung | Orient
+OTTER | 1 | Fischotter | Schlange (Kreuz...)
+PAKET | 1 | Postsendung | Bündel
+PALME | 1 | Tropischer Baum | Kokos...
+PANDA | 1 | Schwarz-weißer Bär | Bambusfresser
+PANIK | 1 | Massenangst | Kopflosigkeit
+PANNE | 1 | Autoschaden | Missgeschick
+PAPST | 1 | Oberhaupt der Katholiken | Heiliger Vater
+PARIS | 1 | Hauptstadt Frankreichs | Stadt der Liebe
+PARTY | 1 | Fete | Feier
+PASTA | 1 | Nudeln (ital.) | Italienische Teigware
+PAUSE | 1 | Unterbrechung | Rast
+PEDAL | 1 | Fußhebel | Gaspedal
+PEGEL | 2 | Wasserstand | Messlatte
+PERLE | 1 | Schmuck aus der Muschel | Kostbarkeit
+PESTO | 1 | Basilikumsoße | Genueser Soße
+PETER | 1 | Männername | ... und der Wolf
+PFERD | 1 | Reittier | Ross
+PFUND | 1 | 500 Gramm | Britische Währung
+PHASE | 2 | Abschnitt | Stadium
+PIANO | 1 | Klavier | Leise (Musik)
+PILOT | 1 | Flugzeugführer | Testlauf
+PIRAT | 1 | Seeräuber | Freibeuter
+PIXEL | 1 | Bildpunkt | Bildschirmpunkt
+PIZZA | 1 | Italienischer Fladen | Margherita z. B.
+PLATT | 1 | Flach | Erschöpft (ugs.)
+PLATZ | 1 | Ort | Marktplatz
+POKAL | 1 | Siegerbecher | Trophäe
+POKER | 1 | Kartenspiel | Bluff-Spiel
+POLEN | 1 | Nachbarland im Osten | Staat mit Warschau
+POLKA | 3 | Böhmischer Tanz | Rundtanz im 2/4-Takt
+PORTO | 2 | Briefgebühr | Stadt in Portugal
+PREIS | 1 | Kosten | Auszeichnung
+PRINZ | 1 | Königssohn | Fürstensohn
+PROBE | 1 | Test | Theaterübung
+PROSA | 2 | Ungebundene Rede | Gegenteil von „Lyrik“
+PULLI | 1 | Kurz: Pullover | Strickoberteil (kurz)
+PUPPE | 1 | Spielzeug | Raupenhülle
+QUARK | 1 | Milchprodukt | Unsinn (ugs.)
+RADAR | 2 | Funkortung | Ortungsgerät
+RADIO | 1 | Rundfunkgerät | Empfänger
+RASCH | 1 | Schnell | Zügig
+RASEN | 1 | Gepflegtes Gras | Schnell fahren
+RATEN | 1 | Vermuten | Teilbeträge
+RATTE | 1 | Nagetier | Kanalbewohner
+RAUCH | 1 | Qualm | Dampf vom Feuer
+REDEN | 1 | Sprechen | Plaudern
+REGAL | 1 | Bücherbord | Gestell
+REGEL | 1 | Vorschrift | Norm
+REGEN | 1 | Niederschlag | Nass von oben
+REGIE | 2 | Spielleitung | Inszenierung
+REICH | 1 | Wohlhabend | Imperium
+REISE | 1 | Fahrt in die Ferne | Urlaub
+RENTE | 1 | Altersgeld | Pension
+RHEIN | 1 | Fluss durch Köln | Strom mit Loreley
+RIESE | 1 | Gigant | Hüne
+RINDE | 1 | Baumhaut | Brotkruste
+RIPPE | 1 | Knochen im Brustkorb | Heizkörper-Glied
+ROBBE | 1 | Seehund | Flossentier
+ROLLE | 1 | Walze | Filmrolle (Part)
+ROMAN | 1 | Umfangreiche Erzählung | Buch, Epos
+ROSIG | 1 | Rosafarben | Vielversprechend
+ROUTE | 1 | Reiseweg | Strecke
+RUBIN | 2 | Roter Edelstein | Roter Schmuckstein
+RUDER | 1 | Steuer am Boot | Riemen
+RUFEN | 1 | Laut sprechen | Schreien
+RUHIG | 1 | Still | Gelassen
+RUINE | 1 | Verfallenes Gebäude | Trümmer
+SAALE | 2 | Fluss durch Halle | Nebenfluss der Elbe
+SAEGE | 1 | Holzwerkzeug | Fuchsschwanz
+SAGEN | 1 | Sprechen | Äußern
+SAHNE | 1 | Rahm | Schlagobers
+SALAT | 1 | Grünes Gemüse | Durcheinander (ugs.)
+SALBE | 1 | Heilcreme | Wund...
+SARAH | 1 | Frauenname | Abrahams Frau
+SAUER | 1 | Gegenteil von „süß“ | Verärgert (ugs.)
+SAUNA | 1 | Schwitzbad | Finnisches Bad
+SCHAF | 1 | Wolllieferant | Lamm-Mutter
+SCHAL | 1 | Halstuch | Wollwickel
+SCHUH | 1 | Fußbekleidung | Halbschuh
+SEELE | 1 | Psyche | Gemüt
+SEGEL | 1 | Tuch am Mast | Windfang am Boot
+SEHEN | 1 | Mit Augen erkennen | Schauen
+SEINE | 2 | Fluss durch Paris | Französischer Fluss
+SEITE | 1 | Buchseite | Flanke
+SENSE | 2 | Mähgerät | Gerät des Todes
+SERIE | 1 | Fernsehreihe | Folge
+SICHT | 1 | Ausblick | Sichtweite
+SIRUP | 1 | Dicker Zuckersaft | Zuckersirup
+SKALA | 2 | Stufenleiter | Messbereich
+SOCKE | 1 | Strumpf | Füßling
+SOFIA | 2 | Hauptstadt Bulgariens | Frauenname
+SONNE | 1 | Stern unseres Planeten | Tagesgestirn
+SORTE | 1 | Art | Typ
+SOSSE | 1 | Bratensaft | Tunke
+SPASS | 1 | Vergnügen | Jux
+SPATZ | 1 | Kleiner grauer Vogel | Sperling
+SPECK | 1 | Fettes Fleisch | Fettpolster
+SPIEL | 1 | Partie | Zeitvertreib
+SPITZ | 1 | Nicht stumpf | Hunderasse
+SPORT | 1 | Körperliche Betätigung | Leibesübung
+SPRAY | 1 | Sprühdose | Spraydose
+STADT | 1 | Große Ortschaft | Metropole
+STAHL | 1 | Hartes Eisen | Werkstoff
+STALL | 1 | Haus für Tiere | Pferdestall
+STAMM | 1 | Holz des Baumes | Volksgruppe
+STARK | 1 | Kräftig | Mächtig
+STAUB | 1 | Feiner Schmutz | Dreck
+STEAK | 1 | Fleischscheibe | Rinderschnitte
+STEIF | 1 | Unbeweglich | Formell
+STEIN | 1 | Hartes Mineral | Fels
+STERN | 1 | Himmelskörper | Asterisk
+STIEL | 1 | Griff, Halm | Blumenstängel
+STIER | 1 | Bulle | Sternzeichen
+STILL | 1 | Ruhig | Lautlos
+STIRN | 1 | Teil des Gesichts | Jemandem die ... bieten
+STOCK | 1 | Stab | Stockwerk
+STOFF | 1 | Gewebe | Material
+STOLZ | 1 | Selbstbewusst | Hochmut
+STROM | 1 | Elektrizität | Großer Fluss
+STUHL | 1 | Sitzmöbel | Sitz
+STUMM | 1 | Ohne Sprache | Lautlos
+STURM | 1 | Starker Wind | Orkan
+SUCHE | 1 | Fahndung | Recherche
+SUDAN | 2 | Staat am Nil | Staat mit Khartum
+SUESS | 1 | Zuckrig | Niedlich
+SUMME | 1 | Ergebnis der Addition | Betrag
+SUPPE | 1 | Flüssiges Gericht | Brühe
+SUSHI | 1 | Japanischer Reishappen | Roher Fisch auf Reis
+SZENE | 1 | Auftritt | Milieu
+TABAK | 1 | Rauchkraut | Pfeifenfüllung
+TAFEL | 1 | Schultafel | Festtafel
+TANGO | 1 | Argentinischer Tanz | Tanz aus Buenos Aires
+TANNE | 1 | Nadelbaum | Christbaum
+TANTE | 1 | Schwester der Mutter | Verwandte
+TASSE | 1 | Trinkgefäß mit Henkel | Kaffeegeschirr
+TASTE | 1 | Knopf auf der Tastatur | Klavierteil
+TAUBE | 1 | Friedensvogel | Stadtvogel
+TEICH | 1 | Kleines Gewässer | Weiher
+TEMPO | 1 | Geschwindigkeit | Gangart
+THEMA | 1 | Gesprächsstoff | Gegenstand
+THRON | 2 | Königssitz | Herrschersitz
+TIBER | 3 | Fluss durch Rom | Italienischer Strom
+TIBET | 2 | Hochland in Asien | Dach der Welt
+TIGER | 1 | Gestreifte Raubkatze | Großkatze
+TINTE | 1 | Schreibflüssigkeit | Füllerfüllung
+TISCH | 1 | Möbelstück zum Essen | Tafel
+TITEL | 1 | Überschrift | Meisterschaft
+TOAST | 1 | Röstbrot | Trinkspruch
+TOKIO | 1 | Hauptstadt Japans | Japanische Metropole
+TONNE | 1 | Mülltonne | 1000 Kilogramm
+TORTE | 1 | Kuchen mit Creme | Sahnegebäck
+TRAUM | 1 | Erlebnis im Schlaf | Wunsch
+TREND | 1 | Mode, Strömung | Tendenz
+TRICK | 1 | Kniff | Zaubertrick
+TRIER | 2 | Älteste Stadt (D) | Stadt an der Mosel
+TROST | 1 | Aufmunterung | Beistand
+TRUEB | 1 | Nicht klar | Wolkig
+TRUHE | 1 | Kiste mit Deckel | Kasten
+TUETE | 1 | Beutel aus Papier | Tragetasche
+TULPE | 1 | Frühlingsblume | Holländische Blume
+UEBEL | 1 | Schlecht | Missstand
+UNION | 2 | Vereinigung | Bund
+UNTEN | 1 | Gegenteil von „oben“ | Am Boden
+VATER | 1 | Papa | Erzeuger
+VIDEO | 1 | Filmaufnahme | Clip
+VILLA | 1 | Großes Wohnhaus | Landhaus
+VIRUS | 1 | Krankheitserreger | Computerschädling
+VISUM | 2 | Einreiseerlaubnis | Sichtvermerk
+VOGEL | 1 | Tier mit Federn | Piepmatz
+WAAGE | 1 | Gerät zum Wiegen | Sternzeichen
+WAFFE | 1 | Kampfmittel | Gewehr oder Schwert
+WAGEN | 1 | Auto | Riskieren
+WAISE | 2 | Elternloses Kind | Kind ohne Eltern
+WANGE | 1 | Backe | Gesichtsseite
+WANNE | 1 | Badewanne | Becken
+WANZE | 2 | Insekt | Abhörgerät
+WATTE | 1 | Weiche Baumwolle | Verbandmaterial
+WEBEN | 2 | Stoff herstellen | Am Webstuhl arbeiten
+WEICH | 1 | Gegenteil von „hart“ | Sanft
+WEISE | 1 | Klug | Art, Melodie
+WELLE | 1 | Woge | Frisur-Locke
+WENIG | 1 | Gegenteil von „viel“ | Spärlich
+WESER | 2 | Fluss durch Bremen | Fluss bei Hameln
+WESPE | 1 | Gelb-schwarzes Insekt | Stechinsekt
+WESTE | 1 | Ärmellose Jacke | Gilet
+WETTE | 1 | Einsatz auf Ausgang | Tipp
+WIESE | 1 | Grünfläche | Weide
+WITWE | 1 | Frau eines Verstorbenen | Hinterbliebene
+WOCHE | 1 | Sieben Tage | Kalenderwoche
+WOLGA | 2 | Längster Fluss Europas | Russischer Strom
+WOLKE | 1 | Am Himmel, bringt Regen | Daten-Speicher (Cloud)
+WOLLE | 1 | Schafhaar | Strickgarn
+WUNDE | 1 | Verletzung | Schramme
+WURST | 1 | Fleischerzeugnis | „Das ist mir ...!“
+ZANGE | 1 | Greifwerkzeug | Kneifzange
+ZEBRA | 1 | Gestreiftes Pferd | Streifen-Pferd
+ZECHE | 2 | Kohlebergwerk | Rechnung (im Lokal)
+ZEILE | 1 | Textzeile | Reihe
+ZIEGE | 1 | Meckerndes Tier | Geiß
+ZUNGE | 1 | Geschmacksorgan | Sprache (gehoben)
+ZWERG | 1 | Kleiner Mann im Märchen | Gartenzwerg

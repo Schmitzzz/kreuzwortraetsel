@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <!-- viewport-fit=cover: Inhalt darf bis unter die iPhone-Notch, wir halten selbst Abstand -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Schwedenrätsel</title>
+  <meta name="description" content="100 Schwedenrätsel in drei Schwierigkeitsgraden. Läuft im Browser und offline.">
+
+  <!-- Farbe der Browserleiste, passend zu hell/dunkel -->
+  <meta name="theme-color" content="#F5F7F6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1417" media="(prefers-color-scheme: dark)">
+
+  <!-- Als App auf dem Home-Bildschirm (iPhone/Android) -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Rätsel">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+
+  <!-- Schrift früh laden, damit nichts springt -->
+  <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- type="module": erlaubt import/export zwischen unseren JS-Dateien -->
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+
+  <!-- ============================ STARTSEITE ============================ -->
+  <main id="startseite" class="seite startseite">
+
+    <header class="start-kopf">
+      <!-- Das Logo ist selbst ein kleines Schwedenrätsel -->
+      <h1 class="logo" aria-label="Schwedenrätsel">
+        <span class="logo-zeile" aria-hidden="true">
+          <span class="logo-hinweis">Rätsel mit Pfeilen</span>
+          <span class="logo-feld">S</span><span class="logo-feld">C</span><span class="logo-feld">H</span><span class="logo-feld">W</span><span class="logo-feld">E</span><span class="logo-feld">D</span><span class="logo-feld">E</span><span class="logo-feld">N</span>
+        </span>
+        <span class="logo-zeile logo-zeile-2" aria-hidden="true">
+          <span class="logo-leer"></span>
+          <span class="logo-feld">R</span><span class="logo-feld">Ä</span><span class="logo-feld">T</span><span class="logo-feld">S</span><span class="logo-feld">E</span><span class="logo-feld">L</span>
+        </span>
+      </h1>
+      <p class="start-text">100 Rätsel zum Knobeln. Alles bleibt auf deinem Gerät und läuft auch ohne Internet.</p>
+    </header>
+
+    <button id="weiterspielen" class="weiterspielen" type="button" hidden>
+      <span class="weiterspielen-titel">Weiterspielen</span>
+      <span id="weiterspielen-name" class="weiterspielen-name"></span>
+    </button>
+
+    <section class="auswahl" aria-label="Rätsel auswählen">
+      <div class="stufen" role="tablist" aria-label="Schwierigkeitsgrad">
+        <button class="stufe" role="tab" type="button" data-stufe="leicht">Leicht</button>
+        <button class="stufe" role="tab" type="button" data-stufe="mittel">Mittel</button>
+        <button class="stufe" role="tab" type="button" data-stufe="schwer">Schwer</button>
+      </div>
+      <p id="stufen-info" class="stufen-info"></p>
+      <div id="raetsel-liste" class="raetsel-liste" role="list"></div>
+    </section>
+
+    <footer class="start-fuss">
+      <p id="install-tipp" class="install-tipp" hidden>
+        Als App aufs iPhone: unten auf das Teilen-Symbol tippen, dann „Zum Home-Bildschirm“.
+      </p>
+      <label class="schalter">
+        <input type="checkbox" id="auto-pruefen">
+        <span>Falsche Buchstaben sofort rot markieren</span>
+      </label>
+      <button id="zuruecksetzen" class="text-knopf" type="button">Gesamten Fortschritt löschen</button>
+    </footer>
+  </main>
+
+  <!-- ============================ SPIELSEITE ============================ -->
+  <main id="spielseite" class="seite spielseite" hidden>
+
+    <header class="spiel-kopf">
+      <button id="zurueck" class="icon-knopf" type="button" aria-label="Zur Übersicht">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <h2 id="spiel-name" class="spiel-name"></h2>
+      <span id="uhr" class="uhr" aria-label="Spielzeit">0:00</span>
+      <button id="zoom" class="icon-knopf" type="button" aria-label="Gitter vergrößern" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5M10.5 8v5M8 10.5h5"/></svg>
+      </button>
+      <button id="hilfe-knopf" class="icon-knopf" type="button" aria-label="Hilfe öffnen">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.6v.6M12 17h.01"/></svg>
+      </button>
+    </header>
+
+    <!-- Die Hinweisleiste zeigt den Hinweis zum gerade gewählten Wort groß an -->
+    <div class="hinweis-leiste">
+      <button id="vorheriges-wort" class="icon-knopf" type="button" aria-label="Vorheriges Wort">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <p id="hinweis-anzeige" class="hinweis-anzeige" aria-live="polite"></p>
+      <button id="naechstes-wort" class="icon-knopf" type="button" aria-label="Nächstes Wort">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <div id="gitter-bereich" class="gitter-bereich">
+      <div id="gitter" class="gitter" role="grid" aria-label="Rätselgitter"></div>
+    </div>
+
+    <div id="loesungswort" class="loesungswort" aria-label="Lösungswort"></div>
+
+    <p class="tastatur-tipp">Einfach lostippen. Leertaste wechselt die Richtung, Tab springt zum nächsten Wort.</p>
+    <div id="tastatur" class="tastatur" aria-label="Bildschirmtastatur"></div>
+  </main>
+
+  <!-- ============================ DIALOGE ============================ -->
+  <dialog id="hilfe-dialog" class="blatt">
+    <h2 class="blatt-titel">Hilfe</h2>
+    <div class="blatt-knoepfe">
+      <button type="button" data-aktion="buchstabe">Diesen Buchstaben aufdecken</button>
+      <button type="button" data-aktion="wort">Dieses Wort aufdecken</button>
+      <button type="button" data-aktion="pruefen">Falsche Buchstaben zeigen</button>
+      <button type="button" data-aktion="aufloesen">Ganzes Rätsel auflösen</button>
+      <button type="button" data-aktion="neustart" class="gefahr">Rätsel leeren und neu starten</button>
+    </div>
+    <button type="button" data-aktion="schliessen" class="blatt-schliessen">Zurück zum Rätsel</button>
+  </dialog>
+
+  <dialog id="geschafft-dialog" class="blatt geschafft">
+    <h2 id="geschafft-titel" class="blatt-titel">Gelöst!</h2>
+    <p id="geschafft-text" class="geschafft-text"></p>
+    <div id="geschafft-loesung" class="geschafft-loesung" aria-label="Lösungswort"></div>
+    <div class="blatt-knoepfe">
+      <button type="button" id="naechstes-raetsel" class="haupt">Nächstes Rätsel</button>
+      <button type="button" id="zur-uebersicht">Zur Übersicht</button>
+    </div>
+  </dialog>
+
+  <dialog id="frage-dialog" class="blatt">
+    <h2 id="frage-titel" class="blatt-titel"></h2>
+    <p id="frage-text" class="geschafft-text"></p>
+    <div class="blatt-knoepfe">
+      <button type="button" id="frage-ja" class="gefahr"></button>
+      <button type="button" id="frage-nein">Abbrechen</button>
+    </div>
+  </dialog>
+
+</body>
+</html>

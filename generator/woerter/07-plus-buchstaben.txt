@@ -1,0 +1,125 @@
+# Wörter mit 7 oder mehr Buchstaben
+# Format:  WORT | Level | Hinweis leicht | Hinweis schwer
+#   WORT   = nur A-Z in Großbuchstaben (Ä=AE, Ö=OE, Ü=UE, ß=SS)
+#   Level  = 1 jeder kennt's, 2 Allgemeinwissen, 3 Rätsel-Profi
+#   Hinweis schwer darf leer bleiben, dann wird der leichte genommen.
+# Zeilen mit # am Anfang sind Kommentare, leere Zeilen werden ignoriert.
+
+ABENTEUER | 1 | Spannendes Erlebnis | Wagnis
+ANTWORT | 1 | Erwiderung | Reaktion
+APOTHEKE | 1 | Laden für Arznei | Pillen-Laden
+AUSFLUG | 1 | Tagesreise | Spritztour
+BAECKER | 1 | Brotmacher | Handwerker mit Mehl
+BAHNHOF | 1 | Haltestelle für Züge | Zugstation
+BIBLIOTHEK | 1 | Bücherei | Bücherhalle
+BLITZER | 1 | Radarfalle | Geschwindigkeitsmesser
+BRUECKE | 1 | Weg über den Fluss | Übergang
+BUCHSTABE | 1 | A, B oder C | Zeichen des Alphabets
+COMPUTER | 1 | Rechner | PC
+DEZEMBER | 1 | Zwölfter Monat | Weihnachtsmonat
+DIENSTAG | 1 | Zweiter Wochentag | Wochentag nach Montag
+DONNERSTAG | 1 | Vierter Wochentag | Wochentag nach Mittwoch
+DROSSEL | 2 | Singvogel | Gas-Bremse (Motor)
+EICHHORN | 1 | Nussknacker im Baum | Baumkletterer im Park
+EISBAER | 1 | Weißer Bär | Arktis-Bewohner
+ELEFANT | 1 | Dickhäuter mit Rüssel | Größtes Landtier
+ENERGIE | 1 | Kraft | Schwung
+ERDBEERE | 1 | Rote Sommerfrucht | Beere am Boden
+FAHRRAD | 1 | Zweirad mit Pedalen | Drahtesel
+FEBRUAR | 1 | Zweiter Monat | Kürzester Monat
+FENSTER | 1 | Glasöffnung in der Wand | Programmfenster
+FEUERWEHR | 1 | Löscht Brände | Brandschützer
+FLASCHE | 1 | Gefäß mit Hals | Versager (ugs.)
+FLUGHAFEN | 1 | Start und Landung | Airport
+FLUGZEUG | 1 | Fliegt mit Flügeln | Jet
+FREITAG | 1 | Fünfter Wochentag | Tag vor Samstag
+FREUNDIN | 1 | Vertraute Person | Partnerin
+FRIEDEN | 1 | Gegenteil von „Krieg“ | Ruhe
+FRUEHLING | 1 | Jahreszeit der Blüte | Lenz
+GEBIRGE | 1 | Viele Berge | Bergland
+GEBURTSTAG | 1 | Jahrestag der Geburt | Wiegenfest
+GEMUESE | 1 | Karotten, Erbsen und Co. | Grünzeug
+GESCHENK | 1 | Präsent | Gabe
+GITARRE | 1 | Saiteninstrument | Klampfe
+HAMSTER | 1 | Nager mit Backentaschen | Vorratssammler
+HANDTUCH | 1 | Zum Abtrocknen | Frottee
+HAUSTIER | 1 | Tier in der Wohnung | Heimtier
+HEIMWEH | 1 | Sehnsucht nach Zuhause | Fernweh-Gegenteil
+HOCHZEIT | 1 | Trauung | Vermählung
+HOSPITAL | 2 | Krankenhaus | Spital
+INSTRUMENT | 1 | Musikgerät | Werkzeug
+ITALIEN | 1 | Stiefelförmiges Land | Land mit Rom
+KALENDER | 1 | Jahresübersicht | Terminplaner
+KAMINFEUER | 1 | Gemütliche Flammen | Glut im Wohnzimmer
+KAROTTE | 1 | Möhre | Gelbe Rübe
+KARTOFFEL | 1 | Erdapfel | Knolle
+KASTANIE | 1 | Braune Baumfrucht | Marone
+KIRSCHE | 1 | Rote Steinfrucht | Torten-Frucht
+KLAVIER | 1 | Tasteninstrument | Piano
+KNOCHEN | 1 | Teil des Skeletts | Gebein
+KOLLEGE | 1 | Arbeitskamerad | Mitarbeiter
+KUESSEN | 1 | Mit Lippen berühren | Schmusen
+LIBELLE | 1 | Flugkünstlerin am Teich | Wasserjungfer
+LOEFFEL | 1 | Suppenbesteck | Ohr (ugs., Hase)
+LOEWENZAHN | 1 | Gelbe Wiesenblume | Pusteblume
+MAERCHEN | 1 | Es war einmal ... | Fabelgeschichte
+MANDARINE | 1 | Kleine Zitrusfrucht | Clementine-Verwandte
+MARMELADE | 1 | Fruchtaufstrich | Konfitüre
+MEDIZIN | 1 | Heilkunde | Arznei
+MITTWOCH | 1 | Dritter Wochentag | Wochenmitte
+NASHORN | 1 | Dickhäuter mit Horn | Rhinozeros
+NOVEMBER | 1 | Elfter Monat | Nebelmonat
+OKTOBER | 1 | Zehnter Monat | Weinmonat (alt)
+PAPAGEI | 1 | Bunter Sprechvogel | Ara-Verwandter
+PFANNKUCHEN | 1 | Eierkuchen | Berliner (regional)
+PFEFFER | 1 | Scharfes Gewürz | Würzkorn
+PFIRSICH | 1 | Samtige Steinfrucht | Steinobst mit Flaum
+PFLAUME | 1 | Blaue Steinfrucht | Zwetschge
+PINGUIN | 1 | Frackvogel | Südpol-Vogel
+PIRATEN | 1 | Seeräuber (Mehrzahl) | Freibeuter
+POLIZEI | 1 | Ordnungshüter | Gesetzeshüter
+PRINZIP | 2 | Grundsatz | Regel
+PUDDING | 1 | Süßspeise | Creme-Dessert
+RATHAUS | 1 | Sitz des Bürgermeisters | Stadtverwaltung
+REGENBOGEN | 1 | Bunter Bogen am Himmel | Farben nach dem Regen
+RESTAURANT | 1 | Gaststätte | Lokal
+RUCKSACK | 1 | Wandertasche | Ranzen
+SAMSTAG | 1 | Sechster Wochentag | Sonnabend
+SCHATTEN | 1 | Dunkler Umriss | Kühle Stelle
+SCHLAFEN | 1 | Nachts ruhen | Pennen
+SCHLANGE | 1 | Kriechtier ohne Beine | Warteschlange
+SCHLOSS | 1 | Türverschluss | Königsbau
+SCHMETTERLING | 1 | Bunter Falter | Raupen-Erwachsener
+SCHNECKE | 1 | Langsames Weichtier | Gebäckschnecke
+SCHOKOLADE | 1 | Süßigkeit aus Kakao | Tafel-Süßes
+SCHRANK | 1 | Möbel für Kleidung | Spind
+SCHULTER | 1 | Gelenk am Arm | Achsel
+SEPTEMBER | 1 | Neunter Monat | Herbstmonat
+SONNTAG | 1 | Siebter Wochentag | Ruhetag
+SPANIEN | 1 | Land mit Madrid | Iberischer Staat
+SPIEGEL | 1 | Glas, das reflektiert | Nachrichtenmagazin
+SPIELEN | 1 | Sich vergnügen | Zocken
+STAUBSAUGER | 1 | Putzgerät | Sauger
+STEMPEL | 1 | Druckstempel | Blütenteil
+STIEFEL | 1 | Hoher Schuh | Gummi...
+STRASSE | 1 | Fahrweg | Gasse
+TAUCHER | 1 | Unterwassersportler | Froschmann
+TEPPICH | 1 | Bodenbelag | Läufer
+TISCHLER | 1 | Möbelbauer | Schreiner
+TRINKEN | 1 | Flüssigkeit aufnehmen | Schlürfen
+TROMMEL | 1 | Schlaginstrument | Pauke
+TURNSCHUH | 1 | Sneaker | Sportschuh
+UNWETTER | 1 | Schweres Gewitter | Sturm mit Hagel
+WANDERN | 1 | Spaziergang in der Natur | Trekking
+WASCHEN | 1 | Reinigen | Säubern
+WEIHNACHTEN | 1 | Christfest | Fest im Dezember
+WELTRAUM | 1 | All | Kosmos
+WERKZEUG | 1 | Hammer oder Zange | Gerät
+WOHNUNG | 1 | Zuhause zur Miete | Bleibe
+WUERFEL | 1 | Spielwürfel | Kubus
+ZAHNARZT | 1 | Doktor für Zähne | Dentist
+ZAUBERER | 1 | Magier | Hexer
+ZEITSCHRIFT | 1 | Magazin | Illustrierte
+ZEITUNG | 1 | Tagesblatt | Gazette
+ZITRONE | 1 | Saure gelbe Frucht | Limone
+ZWIEBEL | 1 | Tränen-Gemüse | Knollen-Lauch

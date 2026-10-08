@@ -1,0 +1,184 @@
+# Wörter mit 6 Buchstaben
+# Format:  WORT | Level | Hinweis leicht | Hinweis schwer
+#   WORT   = nur A-Z in Großbuchstaben (Ä=AE, Ö=OE, Ü=UE, ß=SS)
+#   Level  = 1 jeder kennt's, 2 Allgemeinwissen, 3 Rätsel-Profi
+#   Hinweis schwer darf leer bleiben, dann wird der leichte genommen.
+# Zeilen mit # am Anfang sind Kommentare, leere Zeilen werden ignoriert.
+
+AERGER | 1 | Verdruss | Zorn
+AMEISE | 1 | Krabbelnde Arbeiterin | Waldbewohnerin im Haufen
+ANANAS | 1 | Frucht mit Schopf | Hawaii-Toast-Belag
+ANFANG | 1 | Beginn | Start
+ANGELN | 1 | Fische fangen | Petri Heil-Hobby
+ARBEIT | 1 | Job | Tätigkeit
+ARTIST | 2 | Zirkuskünstler | Akrobat
+AUGUST | 1 | Achter Monat | Männername
+BAGGER | 1 | Baumaschine mit Schaufel | Erdbewegungsmaschine
+BALKON | 1 | Austritt am Haus | Altan
+BANANE | 1 | Gelbe Frucht | Affen-Leckerbissen
+BLUETE | 1 | Blumenteil | Glanzzeit
+BOERSE | 2 | Handelsplatz für Aktien | Geldbeutel
+BRATEN | 1 | Sonntagsessen | In Fett garen
+BREZEL | 1 | Salziges Laugengebäck | Gebäck mit Schlaufen
+BRILLE | 1 | Sehhilfe | Gestell mit Gläsern
+BRUDER | 1 | Männliches Geschwister | Mönch (Anrede)
+BUEHNE | 1 | Theaterpodest | Spielfläche
+BURGER | 1 | Brötchen mit Frikadelle | Fast-Food-Klassiker
+BUTTER | 1 | Brotaufstrich aus Milch | Streichfett
+DAUMEN | 1 | Dicker Finger | Den ... drücken
+DIENER | 1 | Butler | Verbeugung (ugs.)
+DOENER | 1 | Fladenbrot mit Fleisch | Drehspieß-Imbiss
+DRACHE | 1 | Feuerspeiendes Fabeltier | Herbst-Spielzeug
+DUNKEL | 1 | Gegenteil von „hell“ | Finster
+DUSCHE | 1 | Brause im Bad | Kalte ... (Enttäuschung)
+EIFERN | 2 | Nacheifern, streben | Emsig sein
+ELSTER | 1 | Diebischer Vogel | Schwarz-weißer Vogel
+EMPORE | 3 | Galerie in der Kirche | Orgel-Balkon
+ERFOLG | 1 | Gelingen | Triumph
+FALTER | 1 | Schmetterling | Nachtfalter
+FASTEN | 1 | Nichts essen | Enthaltsam sein
+FEDERN | 1 | Vogelkleid | Elastisch nachgeben
+FERIEN | 1 | Schulfreie Zeit | Urlaub
+FICHTE | 1 | Nadelbaum | Rottanne
+FIEBER | 1 | Erhöhte Temperatur | Leidenschaft
+FINGER | 1 | Glied der Hand | Zeige...
+FLAGGE | 1 | Fahne | Nationalfahne
+FLIEGE | 1 | Insekt | Querbinder
+FOHLEN | 1 | Junges Pferd | Füllen
+FRISCH | 1 | Neu, unverbraucht | Kühl
+FROSCH | 1 | Quakendes Tier | Kröten-Verwandter
+FRUCHT | 1 | Obst | Ertrag
+GARTEN | 1 | Grünfläche am Haus | Schrebergarten
+GERADE | 1 | Nicht krumm | Soeben
+GEWALT | 1 | Macht, Zwang | Brutalität
+GLOBUS | 1 | Erdkugel-Modell | Weltkugel
+GRENZE | 1 | Linie zwischen Ländern | Limit
+HAFTEN | 2 | Kleben | Bürgen
+HAMMER | 1 | Werkzeug für Nägel | Wurfgerät (Sport)
+HEFTIG | 1 | Stark, intensiv | Krass (ugs.)
+HELFER | 1 | Unterstützer | Assistent
+HERBST | 1 | Jahreszeit mit Laubfall | Spätjahr
+HIMMEL | 1 | Firmament | Paradies
+HIRSCH | 1 | Geweihträger | König des Waldes
+HOEHLE | 1 | Grotte | Bärenunterkunft
+HUEGEL | 1 | Kleiner Berg | Anhöhe
+HUMMEL | 1 | Dicke Biene | Pelziges Insekt
+HUNGER | 1 | Verlangen nach Essen | Appetit
+HUSTEN | 1 | Erkältungszeichen | Bellen (Krankheit)
+INDIEN | 1 | Land am Ganges | Staat mit Neu-Delhi
+INSEKT | 1 | Sechsbeiniges Tier | Kerbtier
+JANUAR | 1 | Erster Monat | Hartung (alt)
+JUGEND | 1 | Zeit des Jungseins | Junge Leute
+JUNGEN | 1 | Buben | Knaben
+KAFFEE | 1 | Wachmacher-Getränk | Bohnengetränk
+KAKTUS | 1 | Stachelige Pflanze | Wüstenpflanze
+KAMERA | 1 | Fotoapparat | Filmgerät
+KANADA | 1 | Ahornblatt-Land | Staat mit Ottawa
+KARATE | 1 | Japanischer Kampfsport | Kampfkunst mit Handkante
+KARTON | 1 | Pappschachtel | Pappe
+KASTEN | 1 | Kiste | Tor (ugs.)
+KELLER | 1 | Raum unter dem Haus | Souterrain
+KISSEN | 1 | Polster im Bett | Kopfpolster
+KLAPPE | 1 | Deckel | Mund (ugs.)
+KLINGE | 1 | Schneide des Messers | Schwert (gehoben)
+KNOTEN | 1 | Verschlingung im Seil | Seemeile pro Stunde
+KOFFER | 1 | Reisegepäck | Gepäckstück
+KOMMEN | 1 | Ankommen | Erscheinen
+KRAEHE | 1 | Schwarzer Vogel | Rabenvogel
+KROETE | 1 | Froschlurch | Warzige Amphibie
+KUCHEN | 1 | Gebäck vom Blech | Torte
+KUECHE | 1 | Raum zum Kochen | Kochkunst
+KUESTE | 1 | Meeresufer | Gestade
+LACHEN | 1 | Fröhlich sein | Kichern
+LAWINE | 1 | Schneemasse, die abgeht | Schneebrett
+LEHRER | 1 | Unterrichtet Schüler | Pädagoge
+LEITER | 1 | Steiggerät | Chef
+LERCHE | 1 | Singvogel der Felder | Feldvogel
+LIEBEN | 1 | Gern haben | Vergöttern
+LIEGEN | 1 | Waagrecht ruhen | Gefallen (ugs.)
+LOCKER | 1 | Lose | Entspannt
+LONDON | 1 | Hauptstadt Englands | Stadt an der Themse
+MADRID | 1 | Hauptstadt Spaniens | Spanische Metropole
+MANTEL | 1 | Langes Oberteil | Reifenhülle
+MARDER | 1 | Raubtier, beißt Kabel | Auto-Schreck
+MELONE | 1 | Große Frucht | Runder Hut
+MESSER | 1 | Schneidewerkzeug | Taschen...
+MEXIKO | 1 | Land der Azteken | Staat südlich der USA
+MITTAG | 1 | Zwölf Uhr | Tagesmitte
+MOEHRE | 1 | Karotte | Gelbe Rübe
+MONTAG | 1 | Erster Wochentag | Wochenstart
+MORGEN | 1 | Frühe Tageszeit | Der nächste Tag
+MUSKEL | 1 | Fleischstrang | Bizeps z. B.
+MUTTER | 1 | Mama | Gegenstück zur Schraube
+NACKEN | 1 | Genick | Hinterhals
+NECKAR | 1 | Fluss durch Heidelberg | Fluss durch Stuttgart
+NORDEN | 1 | Himmelsrichtung | Gegenteil von „Süden“
+OKTAVE | 2 | Acht Töne | Tonabstand
+ORANGE | 1 | Apfelsine | Farbe
+PALAST | 1 | Schloss | Prunkbau
+PAPIER | 1 | Schreibmaterial | Dokument
+PINSEL | 1 | Malwerkzeug | Einfaltspinsel
+PLANET | 1 | Himmelskörper | Mars oder Venus
+QUELLE | 1 | Ursprung eines Baches | Informant
+RAKETE | 1 | Fluggerät ins All | Feuerwerkskörper
+RAUPEN | 1 | Schmetterlingslarven | Kettenantrieb
+REGNEN | 1 | Nass vom Himmel | Schütten
+REITEN | 1 | Auf dem Pferd sitzen | Satteln und los
+RETTER | 1 | Helfer in der Not | Lebensretter
+RITTER | 1 | Edelmann mit Rüstung | Kämpfer der Tafelrunde
+ROLLER | 1 | Tretroller | Motorroller
+SALBEI | 2 | Heilkraut | Gewürzpflanze
+SCHALE | 1 | Obsthaut | Gefäß
+SCHERE | 1 | Schneidwerkzeug | Krebszange
+SCHIFF | 1 | Großes Wasserfahrzeug | Kirchenschiff
+SCHNEE | 1 | Weiße Flocken | Pulver auf der Piste
+SCHULE | 1 | Ort zum Lernen | Lehranstalt
+SEGELN | 1 | Mit Wind fahren | Bootssport
+SELTEN | 1 | Nicht oft | Rar
+SENDER | 1 | Radio-Station | Absender
+SESSEL | 1 | Polsterstuhl | Fauteuil
+SIEBEN | 1 | Zahl nach sechs | Durchsieben
+SILBER | 1 | Edelmetall | Zweiter Platz
+SINGEN | 1 | Musizieren mit Stimme | Trällern
+SITZEN | 1 | Auf dem Stuhl sein | Im Gefängnis sein (ugs.)
+SOLDAT | 1 | Militärangehöriger | Krieger
+SOMMER | 1 | Wärmste Jahreszeit | Badesaison
+SPINNE | 1 | Achtbeiniges Tier | Netzbauerin
+SPRUNG | 1 | Hüpfer | Riss
+STANGE | 1 | Langer Stab | Bier (Kölsch-Glas)
+STORCH | 1 | Klapperstorch | Adebar
+STRAND | 1 | Sandufer am Meer | Badeufer
+STUDIO | 1 | Aufnahmeraum | Atelier
+SUCHEN | 1 | Fahnden | Stöbern
+SYRIEN | 2 | Staat mit Damaskus | Staat in Vorderasien
+TANZEN | 1 | Sich zur Musik bewegen | Schwofen
+TAPFER | 1 | Mutig | Furchtlos
+TASCHE | 1 | Behälter zum Tragen | Hosen...
+TEUFEL | 1 | Satan | Höllenfürst
+THEMSE | 2 | Fluss durch London | Englischer Strom
+TOMATE | 1 | Rotes Gemüse | Paradiesapfel
+TRAGEN | 1 | Schleppen | Anhaben
+TRAUBE | 1 | Weinbeere | Ansammlung
+TREPPE | 1 | Stufen | Stiege
+TUNNEL | 1 | Unterirdischer Durchgang | Röhre
+UNGARN | 2 | Land mit Budapest | Staat an der Donau
+URLAUB | 1 | Ferien | Freie Tage
+URWALD | 1 | Dschungel | Regenwald
+VERBOT | 1 | Untersagung | Tabu
+VULKAN | 1 | Feuerspeiender Berg | Ätna z. B.
+WAFFEL | 1 | Gebäck aus dem Eisen | Eistüte
+WALZER | 1 | Tanz im Dreivierteltakt | Wiener ...
+WARTEN | 1 | Ausharren | Pflegen (Maschine)
+WASSER | 1 | H2O | Nass
+WECKER | 1 | Uhr, die klingelt | Morgenstörer
+WESTEN | 1 | Sonnenuntergang-Richtung | Okzident
+WETTER | 1 | Regen oder Sonnenschein | Witterung
+WINTER | 1 | Kälteste Jahreszeit | Schneezeit
+WISSEN | 1 | Kenntnis | Kennen
+WOHNEN | 1 | Leben in einem Haus | Hausen
+ZAHLEN | 1 | Bezahlen | Ziffern
+ZEIGEN | 1 | Vorführen | Deuten
+ZIEHEN | 1 | Zerren | Umziehen
+ZIRKUS | 1 | Manege mit Clowns | Theater (ugs.)
+ZUCKER | 1 | Süßungsmittel | Rübenprodukt
+ZWOELF | 1 | Zahl nach elf | Dutzend

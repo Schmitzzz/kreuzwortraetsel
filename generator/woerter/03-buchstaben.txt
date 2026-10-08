@@ -1,0 +1,300 @@
+# Wörter mit 3 Buchstaben
+# Format:  WORT | Level | Hinweis leicht | Hinweis schwer
+#   WORT   = nur A-Z in Großbuchstaben (Ä=AE, Ö=OE, Ü=UE, ß=SS)
+#   Level  = 1 jeder kennt's, 2 Allgemeinwissen, 3 Rätsel-Profi
+#   Hinweis schwer darf leer bleiben, dann wird der leichte genommen.
+# Zeilen mit # am Anfang sind Kommentare, leere Zeilen werden ignoriert.
+
+AAL | 1 | Schlangenförmiger Fisch | Räucherfisch, glitschig
+AAR | 3 | Adler (dichterisch) | Fluss in der Schweiz
+AAS | 2 | Verwester Tierkörper | Geier-Mahlzeit
+ABO | 1 | Kurz für Abonnement | Zeitungsbezug (kurz)
+ABT | 2 | Klostervorsteher | Kloster-Chef
+ACH | 1 | ... und Weh | Ausruf: ... so!
+ADE | 2 | „Lebewohl“ (alt) | Scheiden tut weh: ...
+AHA | 1 | Ausruf der Erkenntnis | „... – so ist das!“
+AHN | 3 | Vorfahr | Urahne (Einzahl)
+AKT | 2 | Theaterabschnitt | Nacktbild
+ALB | 2 | Albtraum-Wesen | Schwäbische ...
+ALE | 3 | Englisches Bier | Obergäriges Bier (engl.)
+ALL | 1 | Weltraum | Universum
+ALM | 1 | Bergweide | Hochweide mit Hütte
+ALS | 1 | Größer ... ich | Bindewort
+ALT | 1 | Gegenteil von „neu“ | Tiefe Frauenstimme
+AMT | 1 | Behörde | Öffentliche Stelle
+ANS | 1 | „an das“ (kurz) | „... Meer fahren“
+APP | 1 | Handy-Programm | Smartphone-Anwendung
+ARA | 3 | Großer Papagei | Südamerikanischer Vogel
+ARD | 1 | Erstes TV-Programm | „Das Erste“ (Abk.)
+ARG | 2 | Sehr (umgangssprachlich) | Schlimm (veraltet)
+ARM | 1 | Körperteil mit Hand | Gegenteil von „reich“
+ART | 1 | Sorte, Gattung | Benehmen, Wesen
+ASS | 1 | Höchste Spielkarte | Spitzenkönner
+AST | 1 | Zweig am Baum | Holzteil am Stamm
+AUA | 1 | Kinderwort für Schmerz | Ausruf bei Wehweh
+AUE | 3 | Flussniederung | Feuchte Wiese am Bach
+AUF | 1 | Gegenteil von „zu“ | Offen
+AUS | 1 | Gegenteil von „an“ | Vorbei, zu Ende
+AVE | 3 | ... Maria | Gegrüßet seist du (lat.)
+AXT | 1 | Werkzeug zum Holzhacken | Beil
+BAD | 1 | Raum mit Wanne | Kurort
+BAH | 2 | Ausruf des Ekels | Igitt-Ausruf
+BAR | 1 | Theke, Kneipe | In Münzen und Scheinen
+BAT | 2 | Bitten: er ... | Fledermaus (engl.)
+BAU | 1 | Gebäude, Baustelle | Fuchshöhle
+BEI | 1 | Präposition: ... mir | Nahe an
+BEO | 3 | Sprechender Vogel | Asiatischer Starenvogel
+BIO | 1 | Kurz: Biologie | Öko-Siegel
+BIS | 1 | ... morgen! | Zugabe-Ruf (frz.)
+BIT | 2 | Kleinste Dateneinheit | Binärziffer
+BOA | 2 | Riesenschlange | Federschal
+BOB | 2 | Schlitten im Eiskanal | Kurzhaarfrisur
+BOE | 2 | Windstoß (Bö) | Plötzlicher Wind (Bö)
+BOX | 1 | Kiste, Kasten | Lautsprecher (ugs.)
+BUG | 2 | Schiffsvorderteil | Software-Fehler
+BUH | 1 | Missfallensruf | Ausruf im Theater
+BUS | 1 | Linienfahrzeug | Omnibus
+CAP | 1 | Schirmmütze | Basecap (kurz)
+DAN | 3 | Meistergrad im Judo | Kampfsport-Grad
+DAS | 1 | Sächlicher Artikel | Bestimmter Artikel
+DAU | 3 | Ahnungsloser PC-Nutzer | Ahnungsloser User
+DAX | 2 | Deutscher Aktienindex | Börsenbarometer
+DEM | 1 | Artikel: mit ... Auto | Artikel (Dativ)
+DEN | 1 | Artikel: ... Mann sehen | Artikel (Akkusativ)
+DEO | 1 | Kurz: Deodorant | Achselspray
+DER | 1 | Männlicher Artikel | Bestimmter Artikel
+DIA | 2 | Kleines Lichtbild | Fotopositiv
+DIE | 1 | Weiblicher Artikel | Bestimmter Artikel
+DIN | 2 | Deutsche Norm (Abk.) | ... A4
+DIR | 1 | Dativ von „du“ | „Ich gebe es ...“
+DOM | 1 | Große Kirche | Kathedrale
+DUO | 1 | Paar, Zweiergruppe | Zweier-Besetzung
+DUR | 2 | Tongeschlecht (fröhlich) | Gegenteil von „Moll“
+EGO | 2 | Das Ich | Ich (lat.)
+EHE | 1 | Bund fürs Leben | Trauschein-Bund
+EID | 2 | Schwur | Feierliches Versprechen
+EIN | 1 | Unbestimmter Artikel | Schalterstellung
+EIS | 1 | Gefrorenes Wasser | Sommer-Leckerei
+ELF | 1 | Zahl nach zehn | Fußballmannschaft
+ELM | 3 | Höhenzug (Niedersachsen) | Niedersächs. Höhenzug
+EMS | 3 | Fluss in Norddeutschland | Bad ... (Kurort)
+EMU | 2 | Großer Laufvogel | Australischer Vogel
+ENG | 1 | Gegenteil von „weit“ | Schmal, knapp
+ENZ | 3 | Fluss in Pforzheim | Nebenfluss des Neckars
+EOS | 3 | Göttin der Morgenröte | Griechische Göttin
+ERZ | 2 | Metallhaltiges Gestein | ...gebirge (Sachsen)
+ESC | 2 | Taste zum Abbrechen | Escape-Taste
+EUR | 2 | Währungskürzel (Euro) | ISO-Code für Euro
+EVA | 2 | Erste Frau (Bibel) | Adams Frau
+FAN | 1 | Begeisterter Anhänger | Groupie
+FAX | 2 | Fernkopie | Alte Bürotechnik
+FEE | 1 | Märchenwesen | Zauberin im Märchen
+FES | 3 | Stadt in Marokko | Türkische Kopfbedeckung
+FEZ | 2 | Spaß, Unfug (ugs.) | Türkische Mütze
+FIT | 1 | In Form, gesund | Topfit
+FIX | 1 | Schnell, flink | Feste Größe
+FUG | 3 | Mit ... und Recht | „Mit ... und Recht“
+FUN | 1 | Spaß (engl.) | Vergnügen (engl.)
+GAB | 2 | Geben: er ... | „Er ... mir das Buch“
+GAG | 1 | Witz, Pointe | Komischer Einfall
+GAS | 1 | Herd-Energie | Pedal im Auto
+GAU | 2 | Größter Unfall (AKW) | Super-...
+GEH | 1 | „... weg!“ (Befehl) | „... doch!“
+GEL | 1 | Haarpflegemittel | Gallertmasse
+GEN | 2 | Erbanlage | In Richtung (veraltet)
+GEO | 2 | Kurz: Geografie | Erd... (Vorsilbe)
+GIG | 2 | Auftritt einer Band | Konzert (engl.)
+GIN | 2 | Wacholderschnaps | Tonic-Partner
+GNU | 2 | Afrikanische Antilope | Streifengnu
+GUT | 1 | Gegenteil von „schlecht“ | Landgut
+HAI | 1 | Raubfisch | Weißer ...
+HAT | 1 | „Er ... ein Auto“ | Besitzt
+HER | 1 | „Komm ...!“ | „Wo kommst du ...?“
+HEU | 1 | Getrocknetes Gras | Pferdefutter
+HIN | 1 | Gegenteil von „her“ | ... und weg
+HIT | 1 | Erfolgreicher Song | Kassenschlager
+HOF | 1 | Bauernhof, Innenhof | Königssitz
+HUB | 3 | Kolbenweg im Motor | Drehkreuz (Flughafen)
+HUF | 1 | Pferdefuß | Fuß des Pferdes
+HUI | 2 | Oben ..., unten pfui | Ausruf der Überraschung
+HUT | 1 | Kopfbedeckung | Zylinder, Melone
+ICE | 1 | Schnellzug der Bahn | Bahn-Flaggschiff (Abk.)
+ICH | 1 | Persönliches Fürwort | Das Ego
+IDA | 2 | Frauenname | Berg auf Kreta
+IHM | 1 | Dativ von „er“ | „Gib es ...!“
+IHN | 1 | Akkusativ von „er“ | „Ich sehe ...“
+IHR | 1 | Fürwort (Plural) | Fürwort: ... Kinder!
+INN | 2 | Fluss durch Innsbruck | Nebenfluss der Donau
+INS | 1 | „in das“ (kurz) | „... Bett gehen“
+ION | 3 | Geladenes Teilchen | Geladenes Atom
+IRE | 2 | Bewohner Irlands | Grüne-Insel-Bewohner
+IRR | 2 | Verwirrt, verrückt | Wirr
+IST | 1 | „Es ... gut“ | Form von „sein“
+JET | 2 | Düsenflugzeug | Privat...
+JOB | 1 | Arbeitsstelle | Nebentätigkeit
+JUX | 2 | Spaß, Scherz | Ulk
+KAI | 2 | Hafenmauer | Uferstraße
+KAM | 1 | Kommen: er ... | „Er ... zu spät“
+KAP | 2 | Vorgebirge am Meer | ... der Guten Hoffnung
+KID | 1 | Kind (engl.) | Nachwuchs (engl.)
+KIT | 2 | Bausatz (engl.) | Set zum Basteln
+KOI | 2 | Zierkarpfen | Japanischer Teichfisch
+KUH | 1 | Milchgebendes Tier | Rindvieh
+KUR | 1 | Erholungsaufenthalt | Heilverfahren im Bad
+LAG | 1 | Liegen: er ... | „Er ... im Bett“
+LAN | 2 | Lokales Netzwerk (Abk.) | ...-Party
+LAS | 2 | Lesen: er ... | „Er ... ein Buch“
+LAU | 1 | Nicht warm, nicht kalt | Mild (Lüftchen)
+LEA | 2 | Frauenname | Jakobs Frau (Bibel)
+LEE | 3 | Windabgewandte Seite | Gegenteil von „Luv“
+LEO | 2 | Männername | Löwe (lat.)
+LID | 1 | Augendeckel | Augen...
+LKW | 1 | Laster (Abk.) | Brummi (Abk.)
+LOB | 1 | Anerkennung | Gegenteil von „Tadel“
+LOK | 1 | Kurz: Lokomotive | Zugmaschine (kurz)
+LOS | 1 | Lotteriezettel | Fertig, ...!
+LOT | 3 | Senkblei | Neffe Abrahams (Bibel)
+LUG | 3 | ... und Trug | Lüge (veraltet)
+LUV | 3 | Windzugewandte Seite | Gegenteil von „Lee“
+LUX | 3 | Lichteinheit | Beleuchtungsmaß
+MAG | 1 | „Ich ... dich“ | Gern haben
+MAI | 1 | Wonnemonat | Fünfter Monat
+MAL | 1 | Zeichen, Fleck | Einmal, ...
+MAN | 1 | Unbestimmtes Fürwort | Insel (Irische See)
+MAX | 2 | Männername (Kurzform) | Höchstwert (kurz)
+MET | 3 | Honigwein | Germanen-Getränk
+MIO | 1 | Abk.: Million | Abk.: Million
+MIR | 1 | Dativ von „ich“ | Russische Raumstation
+MIT | 1 | Präposition: ... dir | Zusammen
+MIX | 1 | Mischung | Gemisch
+MOB | 2 | Pöbel | Aufgebrachte Menge
+MOL | 3 | Stoffmengeneinheit | Chemische Einheit
+MRD | 2 | Abk.: Milliarde | Abk.: Milliarde
+MUH | 1 | Kuh-Laut | Weide-Laut
+MUS | 1 | Brei aus Obst | Apfel...
+MUT | 1 | Tapferkeit | Courage
+NAH | 1 | Gegenteil von „fern“ | Nicht weit
+NEO | 3 | Held aus „Matrix“ | Vorsilbe: neu
+NEU | 1 | Gegenteil von „alt“ | Frisch, unbenutzt
+NIE | 1 | Gegenteil von „immer“ | Zu keiner Zeit
+NIL | 1 | Fluss in Ägypten | Längster Fluss Afrikas
+NIX | 1 | Nichts (ugs.) | Wassergeist
+NOT | 1 | Bedrängnis, Elend | SOS-Situation
+NRW | 1 | Land mit Düsseldorf | Einwohnerstärkstes Land
+NUN | 1 | Jetzt | Also, ...
+NUR | 1 | Lediglich | Bloß
+NUT | 2 | Rille, Fuge | Gegenstück zur Feder
+OBI | 3 | Kimonogürtel | Japanischer Gürtel
+ODE | 2 | Feierliches Gedicht | Lobgedicht
+OEL | 1 | Zum Braten in der Pfanne | Schmiermittel
+OFT | 1 | Häufig | Gegenteil von „selten“
+OHM | 2 | Einheit des Widerstands | Physiker (Gesetz)
+OHR | 1 | Hörorgan | Lauscher
+OMA | 1 | Großmutter | Mutters Mutter
+OPA | 1 | Großvater | Vaters Vater
+ORF | 2 | Sender in Wien (Abk.) | Österr. Rundfunk
+ORT | 1 | Platz, Stelle | Dorf, Gemeinde
+OST | 1 | Himmelsrichtung | Morgen (Richtung)
+OUT | 1 | Gegenteil von „in“ | Aus (beim Sport)
+PAN | 2 | Hirtengott | Peter ...
+PAR | 2 | Golf: Schlagvorgabe | Gleichwertig (lat.)
+PDF | 1 | Dokument-Format | Adobe-Format (Abk.)
+PEP | 2 | Schwung | Elan
+PER | 2 | Mit, durch (lat.) | ... Post
+PIA | 2 | Frauenname | Weiblicher Vorname
+PIK | 2 | Spielkartenfarbe | Berggipfel
+PIN | 1 | Geheimzahl | Anstecknadel
+PKW | 1 | Auto (Abk.) | Personenwagen (Abk.)
+POL | 1 | Nord... oder Süd... | Endpunkt der Erdachse
+POP | 1 | Musikrichtung | Charts-Musik
+PUB | 1 | Englische Kneipe | Irish ...
+PUH | 1 | Ausruf der Erleichterung | Bärenname (Winnie ...)
+PUR | 1 | Rein, unverfälscht | Ohne Zusatz
+RAD | 1 | Fahrrad | Kreisrundes Teil
+RAM | 2 | Arbeitsspeicher (Abk.) | Widder (engl.)
+RAN | 1 | „Nur ... an die Arbeit!“ | Heran (ugs.)
+RAP | 1 | Sprechgesang | Hip-Hop-Musik
+RAT | 1 | Empfehlung, Tipp | Gremium
+RAU | 1 | Nicht glatt | Heiser (Stimme)
+REH | 1 | Scheues Waldtier | Bambi ist eins
+RHO | 3 | Griechischer Buchstabe | Griechisches R
+RIO | 2 | Brasilianische Metropole | ... de Janeiro
+ROH | 1 | Ungekocht | Grob, unhöflich
+ROM | 1 | Hauptstadt Italiens | Ewige Stadt
+ROT | 1 | Farbe der Liebe | Ampelfarbe: Halt
+RUF | 1 | Ansehen, Leumund | Schrei, Zuruf
+RUM | 1 | Zuckerrohrschnaps | Piratengetränk
+RUN | 2 | Ansturm (engl.) | Andrang
+SAG | 1 | „... mal!“ | „... bloß!“
+SAH | 1 | Sehen: er ... | „Ich ... ihn kommen“
+SAU | 1 | Weibliches Schwein | Wildschwein-Weibchen
+SEE | 1 | Binnengewässer | Bodensee ist einer
+SEI | 1 | „... still!“ | „... vorsichtig!“
+SEK | 3 | Spezialeinheit (Abk.) | Polizei-Kommando
+SET | 2 | Satz, Garnitur | Drehort (Film)
+SIE | 1 | Höfliche Anrede | Weibliches Fürwort
+SIR | 2 | Englische Anrede | Mylord, ...
+SKI | 1 | Wintersportgerät | Brett im Schnee
+SMS | 1 | Kurznachricht (Abk.) | Handy-Text (Abk.)
+SOG | 2 | Strömung, die zieht | Saugwirkung
+SOS | 1 | Notruf | Seenot-Signal
+SPA | 2 | Wellness-Bereich | Kurort in Belgien
+SUD | 3 | Brühe, Abkochung | Brauerei-Flüssigkeit
+SUV | 1 | Geländewagen (Abk.) | Stadtpanzer (ugs.)
+TAG | 1 | Gegenteil von „Nacht“ | 24 Stunden
+TAL | 1 | Senke zwischen Bergen | Gegenteil von „Berg“
+TAO | 3 | Chinesischer „Weg“ | Daoismus-Begriff
+TAT | 1 | Handlung | Verbrechen (Täter)
+TAU | 1 | Morgendliche Nässe | Dickes Seil
+TEE | 1 | Heißgetränk aus Blättern | Golf: Abschlagstelle
+TOD | 1 | Lebensende | Sensenmann bringt ihn
+TON | 1 | Klang, Laut | Lehm zum Töpfern
+TOP | 1 | Spitze, super | Oberteil
+TOR | 1 | Ziel beim Fußball | Narr, Dummkopf
+TOT | 1 | Leblos | Gestorben
+TUN | 1 | Machen, handeln | Das ... und Lassen
+TUT | 1 | „Das ... mir leid“ | Hupen-Laut
+UDO | 2 | Männername (Lindenberg) | Vorname von Jürgens
+UFO | 1 | Fliegende Untertasse | Unbekanntes Flugobjekt
+UHR | 1 | Zeitmesser | Wecker
+UHU | 2 | Großer Nachtvogel | Größte Eule Europas
+ULK | 2 | Spaß, Scherz | Jux
+ULM | 2 | Stadt an der Donau | Münsterstadt
+UMS | 1 | „um das“ (kurz) | „... Haus herum“
+UND | 1 | Bindewort | Plus, sowie
+UNI | 1 | Kurz: Universität | Hochschule (kurz)
+UNO | 2 | Kartenspiel | Vereinte Nationen (Abk.)
+URI | 3 | Schweizer Kanton | Urkanton der Schweiz
+USA | 1 | Vereinigte Staaten | Sternenbanner-Land
+USB | 1 | Anschluss am PC (Abk.) | ...-Stick
+UTA | 2 | Frauenname | Naumburger Stifterfigur
+UTE | 2 | Frauenname | Weiblicher Vorname
+VAN | 2 | Kleinbus | Großraumauto
+VIA | 2 | Über, durch (Weg) | Straße (lat.)
+VIP | 1 | Wichtige Person (Abk.) | Promi (Abk.)
+VOM | 1 | „von dem“ (kurz) | „... Fach“
+VON | 1 | ... A nach B | Adelstitel-Wort
+VOR | 1 | Gegenteil von „hinter“ | Zeitlich früher
+WAL | 1 | Größtes Meerestier | Pottwal z. B.
+WAR | 1 | „Es ... einmal ...“ | Vergangenheit von „sein“
+WAS | 1 | Fragewort | „... ist los?“
+WEB | 1 | Internet (engl.) | World Wide ...
+WEG | 1 | Pfad, Strecke | Fort, verschwunden
+WEH | 1 | Schmerzhaft | Ach und ...
+WEM | 1 | Fragewort (Dativ) | „... gehört das?“
+WEN | 1 | Fragewort (Akkusativ) | „... meinst du?“
+WER | 1 | Fragewort nach Person | „... ist da?“
+WIE | 1 | Fragewort nach der Art | „... geht's?“
+WIR | 1 | Fürwort (Plural) | Ich und du
+WOK | 1 | Asiatische Pfanne | Chinapfanne
+WOW | 1 | Ausruf des Staunens | Toll! (engl.)
+WUT | 1 | Zorn | Raserei
+ZAR | 2 | Russischer Herrscher | Nikolaus II. war einer
+ZDF | 1 | Zweites TV-Programm | Sender aus Mainz (Abk.)
+ZEH | 1 | Glied am Fuß | Großer ...
+ZEN | 2 | Meditationsform | Buddhismus-Richtung
+ZIP | 2 | Komprimierte Datei | Reißverschluss (engl.)
+ZOO | 1 | Tierpark | Tiergarten
+ZUG | 1 | Bahn, Eisenbahn | Schachzug
+ZUM | 1 | „zu dem“ (kurz) | „... Beispiel“
+ZUR | 1 | „zu der“ (kurz) | „... Sache!“

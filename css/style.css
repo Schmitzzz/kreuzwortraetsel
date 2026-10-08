@@ -1,0 +1,657 @@
+/* ==========================================================================
+   Schwedenrätsel – Stylesheet
+   Idee: Optik eines Rätselhefts. Hinweisfelder in Druck-Cyan, das aktive
+   Wort wie mit Textmarker angestrichen, Fehler in Rotstift, aufgedeckte
+   Buchstaben in Kuli-Blau.
+   ========================================================================== */
+
+/* --- Schrift ------------------------------------------------------------ */
+/* Archivo ist eine "variable" Schrift: Dicke (weight) UND Breite (stretch)
+   lassen sich stufenlos einstellen. Schmal für Hinweise, breit für Titel. */
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo-latin.woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+}
+
+/* --- Farben und Maße als Variablen ("Design-Tokens") --------------------- */
+:root {
+  --papier: #F5F7F6;        /* Hintergrund, kühles Zeitungsweiß */
+  --feld: #FFFFFF;          /* Buchstabenfeld */
+  --tinte: #15191C;         /* Text und Linien */
+  --leise: #5B676D;         /* Nebentexte */
+  --hinweis: #CDE6F1;       /* Hinweisfeld, Druck-Cyan aufgehellt */
+  --hinweis-text: #0B3346;
+  --marker: #FFF27A;        /* Textmarker-Gelb für das aktive Wort */
+  --marker-stark: #FFCF33;  /* aktives Feld */
+  --rot: #D3261B;           /* Rotstift: falsch */
+  --blau: #2343C4;          /* Kuli-Blau: aufgedeckt */
+  --taste: #FFFFFF;
+  --tastatur: #E2E8EB;
+  --schatten: rgba(21, 25, 28, 0.28);
+
+  --rand: 16px;             /* Seitenabstand links/rechts */
+  --linie: 2px;             /* dicke Rahmenlinie */
+  color-scheme: light dark; /* Formularelemente passen sich an */
+}
+
+/* Dunkles Design – automatisch, wenn das Gerät auf "Dunkel" steht */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #0F1417;
+    --feld: #182126;
+    --tinte: #E8EEF0;
+    --leise: #95A3AA;
+    --hinweis: #113A4B;
+    --hinweis-text: #C3E8F7;
+    --marker: #4E4810;
+    --marker-stark: #9C7A06;
+    --rot: #FF7466;
+    --blau: #93ABFF;
+    --taste: #26323A;
+    --tastatur: #121A1E;
+    --schatten: rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* --- Grundlagen ---------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--tinte);
+  font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  -webkit-tap-highlight-color: transparent;   /* kein grauer Blitz beim Tippen (iOS) */
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;   /* verhindert Zoom bei Doppeltipp */
+}
+
+:focus-visible {
+  outline: 3px solid var(--blau);
+  outline-offset: 2px;
+}
+
+[hidden] { display: none !important; }
+
+/* ==========================================================================
+   STARTSEITE
+   ========================================================================== */
+.startseite {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top) + 28px) var(--rand) calc(env(safe-area-inset-bottom) + 32px);
+}
+
+/* --- Logo: ein Mini-Schwedenrätsel -------------------------------------- */
+.logo {
+  --lz: min(10vw, 52px);       /* Größe eines Logo-Kästchens */
+  margin: 0 0 18px;
+  font-size: calc(var(--lz) * 0.6);
+  font-weight: 800;
+  line-height: 1;
+}
+.logo-zeile { display: flex; }
+.logo-zeile-2 { margin-top: calc(var(--linie) * -1); }   /* Linien überlappen */
+
+.logo-feld,
+.logo-hinweis,
+.logo-leer {
+  width: var(--lz);
+  height: var(--lz);
+  flex: none;
+  margin-left: calc(var(--linie) * -1);
+}
+.logo-feld,
+.logo-hinweis {
+  display: grid;
+  place-items: center;
+  border: var(--linie) solid var(--tinte);
+  background: var(--feld);
+}
+.logo-hinweis {
+  position: relative;
+  margin-left: 0;
+  padding: 2px;
+  background: var(--hinweis);
+  color: var(--hinweis-text);
+  font-size: calc(var(--lz) * 0.2);
+  font-weight: 600;
+  font-stretch: 62%;
+  line-height: 1.05;
+  text-align: center;
+}
+/* kleiner Pfeil vom Hinweis zum ersten Buchstaben */
+.logo-hinweis::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  translate: 0 -50%;
+  border: 5px solid transparent;
+  border-left: 6px solid var(--tinte);
+  z-index: 1;
+}
+.logo-leer { margin-left: 0; }
+
+/* Die Buchstaben "tippen" sich beim ersten Laden einmal ein.
+   Die Klasse "animiert" setzt app.js nur beim Start der App. */
+.logo.animiert .logo-feld {
+  animation: eintippen 0.35s both;
+}
+.logo.animiert .logo-zeile .logo-feld:nth-child(2)  { animation-delay: 0.05s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(3)  { animation-delay: 0.10s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(4)  { animation-delay: 0.15s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(5)  { animation-delay: 0.20s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(6)  { animation-delay: 0.25s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(7)  { animation-delay: 0.30s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(8)  { animation-delay: 0.35s; }
+.logo.animiert .logo-zeile .logo-feld:nth-child(9)  { animation-delay: 0.40s; }
+.logo.animiert .logo-zeile-2 .logo-feld:nth-child(2) { animation-delay: 0.50s; }
+.logo.animiert .logo-zeile-2 .logo-feld:nth-child(3) { animation-delay: 0.55s; }
+.logo.animiert .logo-zeile-2 .logo-feld:nth-child(4) { animation-delay: 0.60s; }
+.logo.animiert .logo-zeile-2 .logo-feld:nth-child(5) { animation-delay: 0.65s; }
+.logo.animiert .logo-zeile-2 .logo-feld:nth-child(6) { animation-delay: 0.70s; }
+.logo.animiert .logo-zeile-2 .logo-feld:nth-child(7) { animation-delay: 0.75s; }
+
+@keyframes eintippen {
+  from { color: transparent; background: var(--marker-stark); }
+  60%  { background: var(--marker); }
+  to   { color: var(--tinte); background: var(--feld); }
+}
+
+.start-text {
+  max-width: 34em;
+  margin: 0 0 24px;
+  color: var(--leise);
+}
+
+/* --- Weiterspielen: sieht aus wie ein Hinweisfeld mit Pfeil -------------- */
+.weiterspielen {
+  position: relative;
+  display: grid;
+  width: 100%;
+  margin: 0 0 28px;
+  padding: 14px 44px 14px 16px;
+  border: var(--linie) solid var(--tinte);
+  background: var(--hinweis);
+  color: var(--hinweis-text);
+  text-align: left;
+}
+.weiterspielen::after {          /* Pfeil am rechten Rand */
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  translate: 0 -50%;
+  border: 8px solid transparent;
+  border-left: 11px solid currentColor;
+  border-right: 0;
+}
+.weiterspielen-titel { font-size: 0.875rem; font-weight: 500; }
+.weiterspielen-name { font-size: 1.375rem; font-weight: 750; font-stretch: 112%; line-height: 1.2; }
+
+/* --- Schwierigkeits-Reiter --------------------------------------------- */
+.stufen {
+  display: flex;
+  border: var(--linie) solid var(--tinte);
+}
+.stufe {
+  flex: 1;
+  padding: 12px 4px;
+  border: 0;
+  background: var(--feld);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  font-stretch: 115%;
+}
+.stufe + .stufe { border-left: var(--linie) solid var(--tinte); }
+.stufe[aria-selected="true"] { background: var(--marker); }
+
+.stufen-info {
+  margin: 10px 0 14px;
+  color: var(--leise);
+  font-size: 0.9375rem;
+}
+
+/* --- Rätsel-Liste: selbst ein Gitter mit nummerierten Kästchen ---------- */
+.raetsel-liste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 1px;
+  padding: 1px;
+}
+.kaestchen {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--feld);
+  color: inherit;
+  text-decoration: none;
+  /* Schatten statt Rahmen: überlappen sich in der 1px-Lücke zu einer Linie */
+  box-shadow: 0 0 0 1px var(--tinte);
+}
+.kaestchen:focus-visible { outline-offset: -3px; }
+.kaestchen-nr {                     /* Nummer oben links wie im Kreuzworträtsel */
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  font-size: 0.8125rem;
+  font-weight: 650;
+  z-index: 1;
+}
+.kaestchen-fuellung {               /* gelbe Füllung = Fortschritt */
+  position: absolute;
+  inset: auto 0 0 0;
+  background: var(--marker);
+}
+.kaestchen-status {
+  position: absolute;
+  inset: auto 0 6px 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-stretch: 85%;
+  text-align: center;
+  z-index: 1;
+}
+.kaestchen.geloest { background: var(--tinte); color: var(--papier); }
+.kaestchen.geloest .kaestchen-status { font-size: 0.8125rem; }
+.kaestchen.aufgeloest { background: var(--hinweis); color: var(--hinweis-text); }
+
+/* --- Fußbereich --------------------------------------------------------- */
+.start-fuss {
+  display: grid;
+  gap: 14px;
+  margin-top: 32px;
+  font-size: 0.9375rem;
+}
+.install-tipp {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--tinte);
+  background: var(--feld);
+}
+.schalter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.schalter input { width: 22px; height: 22px; accent-color: var(--tinte); }
+.text-knopf {
+  justify-self: start;
+  padding: 6px 0;
+  border: 0;
+  background: none;
+  color: var(--rot);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ==========================================================================
+   SPIELSEITE
+   ========================================================================== */
+.spielseite {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;          /* Fallback für alte Browser */
+  height: 100dvh;         /* "dynamic viewport": passt sich der iOS-Leiste an */
+  overflow: hidden;
+  padding-top: env(safe-area-inset-top);
+}
+
+/* --- Kopfzeile ---------------------------------------------------------- */
+.spiel-kopf {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 52px;
+  padding: 0 calc(var(--rand) - 8px);
+  border-bottom: var(--linie) solid var(--tinte);
+}
+.spiel-name {
+  flex: 1;
+  margin: 0 4px;
+  font-size: 1.125rem;
+  font-weight: 750;
+  font-stretch: 112%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.uhr {
+  min-width: 3.2em;
+  font-variant-numeric: tabular-nums;   /* Ziffern gleich breit -> nichts wackelt */
+  font-weight: 600;
+  text-align: right;
+}
+.icon-knopf {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.icon-knopf svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.icon-knopf[aria-pressed="true"] { background: var(--marker); }
+
+/* --- Hinweisleiste ------------------------------------------------------ */
+.hinweis-leiste {
+  display: flex;
+  align-items: center;
+  min-height: 68px;
+  padding: 4px calc(var(--rand) - 12px);
+  background: var(--hinweis);
+  color: var(--hinweis-text);
+  border-bottom: var(--linie) solid var(--tinte);
+}
+.hinweis-anzeige {
+  flex: 1;
+  margin: 0;
+  font-size: 1.1875rem;
+  font-weight: 620;
+  font-stretch: 92%;
+  line-height: 1.25;
+  text-align: center;
+  hyphens: auto;
+}
+.hinweis-anzeige .laenge {
+  font-weight: 450;
+  white-space: nowrap;
+}
+.hinweis-anzeige .richtungs-pfeil {
+  display: inline-block;
+  margin-right: 6px;
+  font-weight: 800;
+}
+
+/* --- Gitter ------------------------------------------------------------- */
+.gitter-bereich {
+  flex: 1 1 auto;
+  min-height: 0;          /* nötig, damit "overflow: auto" in einer Flexbox greift */
+  display: flex;
+  overflow: auto;
+  padding: 12px var(--rand);
+  overscroll-behavior: contain;
+}
+.gitter {
+  --zelle: 40px;          /* wird per JavaScript passend gesetzt */
+  margin: auto;           /* zentriert, ohne beim Scrollen etwas abzuschneiden */
+  display: grid;
+  grid-template-columns: repeat(var(--breite), var(--zelle));
+  grid-auto-rows: var(--zelle);
+  gap: 1px;
+  padding: 1px;
+  background: var(--tinte);                 /* Linien zwischen den Feldern */
+  outline: 1px solid var(--tinte);          /* zusammen mit padding: dicker Außenrahmen */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.zelle {
+  position: relative;
+  background: var(--feld);
+}
+
+/* Buchstabenfeld */
+.buchstabe {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.eingabe {
+  font-size: calc(var(--zelle) * 0.56);
+  font-weight: 680;
+  line-height: 1;
+}
+.buchstabe.im-wort { background: var(--marker); }
+.buchstabe.aktiv { background: var(--marker-stark); }
+.buchstabe.falsch .eingabe { color: var(--rot); }
+.buchstabe.falsch::before {               /* Rotstift-Strich durch falsche Felder */
+  content: "";
+  position: absolute;
+  inset: 18%;
+  background: linear-gradient(to top right, transparent 46%, var(--rot) 47%, var(--rot) 53%, transparent 54%);
+  opacity: 0.55;
+}
+.buchstabe.aufgedeckt .eingabe { color: var(--blau); }
+
+/* Felder fürs Lösungswort: Kreis + Nummer */
+.buchstabe.loesungsfeld::after {
+  content: "";
+  position: absolute;
+  inset: 7%;
+  border: 1px solid var(--leise);
+  border-radius: 50%;
+  opacity: 0.7;
+  pointer-events: none;
+}
+.nr {
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  font-size: calc(var(--zelle) * 0.22);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--leise);
+}
+
+/* Pfeile: zeigen, wo ein Wort anfängt und in welche Richtung es läuft */
+.pfeil {
+  position: absolute;
+  width: calc(var(--zelle) * 0.3);
+  height: calc(var(--zelle) * 0.3);
+  color: var(--tinte);
+  pointer-events: none;
+}
+.pfeil svg { display: block; width: 100%; height: 100%; }
+.pfeil-rechts        { left: 0; top: 50%; translate: 0 -50%; }
+.pfeil-unten         { top: 0; left: 50%; translate: -50% 0; }
+.pfeil-unten_rechts  { top: 0; left: 0; }
+.pfeil-rechts_unten  { top: 0; left: 0; }
+
+/* Hinweisfeld */
+.hinweisfeld {
+  display: flex;
+  flex-direction: column;
+  background: var(--hinweis);
+}
+.hinweis {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 2px;
+  border: 0;
+  background: none;
+  color: var(--hinweis-text);
+  font-size: 9px;            /* Startwert, JavaScript passt ihn pro Hinweis an */
+  font-weight: 560;
+  font-stretch: 62%;          /* ganz schmal, damit möglichst viel Text reinpasst */
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+  -webkit-hyphens: auto;      /* Silbentrennung (Safari kennt Deutsch) */
+  hyphens: auto;
+}
+.hinweis + .hinweis { border-top: 1px solid var(--tinte); }
+.hinweis.aktiv { background: var(--marker-stark); color: #15191C; }
+.hinweis-text { display: block; width: 100%; }
+/* Passt ein langes Wort selbst in kleinster Schrift nicht, darf es überall umbrechen. */
+.hinweis.umbruch { align-items: flex-start; }
+.hinweis.umbruch .hinweis-text { overflow-wrap: anywhere; }
+
+/* Zoom-Modus: größeres Gitter, Bereich scrollt */
+.gitter-bereich.gross { padding: 12px; }
+
+/* --- Lösungswort -------------------------------------------------------- */
+.loesungswort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px var(--rand) 10px;
+}
+.loesungswort-label {
+  font-size: 0.875rem;
+  color: var(--leise);
+}
+.loesungswort-felder { display: flex; }
+.lw-feld {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  margin-left: -1px;
+  border: 1px solid var(--tinte);
+  background: var(--feld);
+  font-weight: 700;
+}
+.lw-feld .nr { font-size: 9px; }
+
+/* --- Bildschirmtastatur -------------------------------------------------- */
+.tastatur {
+  display: grid;
+  gap: 7px;
+  padding: 8px 4px calc(env(safe-area-inset-bottom) + 8px);
+  background: var(--tastatur);
+  border-top: 1px solid var(--tinte);
+}
+.tasten-reihe {
+  display: flex;
+  gap: 5px;
+}
+.taste {
+  flex: 1 1 0;
+  height: 46px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: var(--taste);
+  box-shadow: 0 1px 0 var(--schatten);
+  font-size: 1.125rem;
+  font-weight: 560;
+}
+.taste:active { background: var(--marker); }
+.taste.breit { flex-grow: 1.6; }
+.taste svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+}
+.tastatur-tipp {
+  display: none;
+  margin: 0;
+  padding: 8px var(--rand) calc(env(safe-area-inset-bottom) + 12px);
+  color: var(--leise);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+/* Niedrige Bildschirme (z. B. iPhone im Safari mit Adressleiste): alles etwas kompakter */
+@media (max-height: 720px) {
+  .spiel-kopf { min-height: 46px; }
+  .hinweis-leiste { min-height: 54px; }
+  .hinweis-anzeige { font-size: 1.0625rem; }
+  .gitter-bereich { padding-top: 8px; padding-bottom: 8px; }
+  .loesungswort { padding-top: 4px; padding-bottom: 6px; }
+  .lw-feld { width: 28px; height: 28px; }
+  .taste { height: 42px; }
+  .tastatur { gap: 6px; }
+}
+
+/* Am PC mit Maus und echter Tastatur: keine Bildschirmtastatur */
+@media (hover: hover) and (pointer: fine) {
+  .tastatur { display: none; }
+  .tastatur-tipp { display: block; }
+}
+
+/* ==========================================================================
+   DIALOGE (als Blatt, das von unten hochkommt)
+   ========================================================================== */
+.blatt {
+  width: min(100%, 520px);
+  max-width: 100%;
+  margin: auto auto 0;
+  padding: 20px var(--rand) calc(env(safe-area-inset-bottom) + 16px);
+  border: var(--linie) solid var(--tinte);
+  border-bottom: 0;
+  background: var(--papier);
+  color: var(--tinte);
+}
+.blatt[open] { animation: hochschieben 0.22s ease-out; }
+.blatt::backdrop { background: rgba(15, 20, 23, 0.45); }
+@keyframes hochschieben {
+  from { translate: 0 30%; opacity: 0; }
+  to   { translate: 0 0; opacity: 1; }
+}
+.blatt-titel {
+  margin: 0 0 14px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-stretch: 118%;
+  line-height: 1.1;
+}
+.blatt-knoepfe {
+  display: grid;
+  gap: 8px;
+}
+.blatt button {
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 1.5px solid var(--tinte);
+  background: var(--feld);
+  font-weight: 600;
+  text-align: left;
+}
+.blatt button.haupt { background: var(--marker); }
+.blatt button.gefahr { color: var(--rot); }
+.blatt .blatt-schliessen {
+  width: 100%;
+  margin-top: 14px;
+  border-color: transparent;
+  background: none;
+  text-align: center;
+}
+.geschafft-text { margin: 0 0 16px; color: var(--leise); }
+.geschafft-loesung { display: flex; margin: 0 0 20px; }
+.geschafft-loesung .lw-feld { width: 40px; height: 40px; font-size: 1.25rem; background: var(--marker); }
+
+/* ==========================================================================
+   Barrierefreiheit: weniger Bewegung, wenn das System das wünscht
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    transition: none !important;
+  }
+}

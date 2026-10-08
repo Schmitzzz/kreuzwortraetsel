@@ -1,0 +1,152 @@
+# Wörter mit 2 Buchstaben
+# Format:  WORT | Level | Hinweis leicht | Hinweis schwer
+#   WORT   = nur A-Z in Großbuchstaben (Ä=AE, Ö=OE, Ü=UE, ß=SS)
+#   Level  = 1 jeder kennt's, 2 Allgemeinwissen, 3 Rätsel-Profi
+#   Hinweis schwer darf leer bleiben, dann wird der leichte genommen.
+# Zeilen mit # am Anfang sind Kommentare, leere Zeilen werden ignoriert.
+
+AA | 3 | Auswärtiges Amt (Abk.) | Außenministerium (Abk.)
+AB | 1 | Gegenteil von „an“ | Fahrplan: Abfahrt
+AG | 1 | Abk.: Aktiengesellschaft | Silber (chem. Zeichen)
+AH | 1 | Ausruf der Erkenntnis | Ausruf: ... so!
+AL | 3 | Aluminium (Zeichen) | Aluminium (Symbol)
+AM | 1 | „an dem“ (kurz) | Verschmolzenes Wort
+AN | 1 | Gegenteil von „aus“ | Schalterstellung
+AR | 2 | Flächenmaß (100 m²) | Argon (chem. Zeichen)
+AT | 1 | Länderkürzel Österreich | Altes Testament (Abk.)
+AU | 1 | Ausruf bei Schmerz | Gold (chem. Zeichen)
+AZ | 3 | Abk.: Aktenzeichen | Abk.: Aktenzeichen
+BH | 1 | Wäschestück (Abk.) | Büstenhalter (Abk.)
+BW | 2 | Abk.: Baden-Württemberg | Das Ländle (Abk.)
+BY | 2 | Abk.: Bayern | Abk.: Bayern
+CA | 1 | Abk.: zirka | Calcium (chem. Zeichen)
+CD | 1 | Musikscheibe (Abk.) | Compact Disc (Abk.)
+CH | 1 | Länderkürzel Schweiz | Helvetia (Kfz)
+CL | 3 | Abk.: Zentiliter | Chlor (chem. Zeichen)
+CM | 1 | Abk.: Zentimeter | Hundertstel Meter (Abk.)
+CO | 1 | Firma & ... | Cobalt (chem. Zeichen)
+CU | 2 | Kupfer (chem. Zeichen) | Kupfer (Symbol)
+DA | 1 | Hier und ... | Kfz-Zeichen: Darmstadt
+DB | 1 | Deutsche Bahn (Abk.) | Abk.: Dezibel
+DE | 1 | Länderkürzel Deutschland | Webadressen-Endung (D)
+DI | 1 | Kurzform: Dienstag | Lady ... (Spencer)
+DJ | 1 | Plattenaufleger (Abk.) | Club-Musikmacher (Abk.)
+DK | 2 | Kfz-Zeichen: Dänemark | Dänemark (Länderkürzel)
+DM | 3 | Deutsche Mark (Abk.) | Alte Währung (Abk.)
+DO | 1 | Kurzform: Donnerstag | Tonsilbe (Solmisation)
+DU | 1 | Persönliches Fürwort | Vertrauliche Anrede
+EG | 1 | Erdgeschoss (Abk.) | Parterre (Abk.)
+EH | 2 | Sowieso (ugs.) | Ohnehin (ugs.)
+EI | 1 | Vom Huhn gelegt | Ostersymbol
+EL | 3 | Abk.: Esslöffel | Abk.: Esslöffel
+EM | 1 | Europameisterschaft | Kontinental-Turnier
+ER | 1 | Fürwort (männlich) | Männliches Fürwort
+ES | 1 | Fürwort (sächlich) | Erniedrigtes E (Ton)
+EU | 1 | Europäische Union | Staatenbund (Abk.)
+EX | 1 | Frühere Partnerin | „Auf ...!“ (Trinkspruch)
+FA | 3 | Tonsilbe (Solmisation) | Vierte Tonsilbe
+FC | 1 | Fußballclub (Abk.) | Abk.: Fußballclub
+FE | 3 | Eisen (chem. Zeichen) | Eisen (Symbol)
+FR | 1 | Kurzform: Freitag | Frankreich (Kürzel)
+GB | 1 | Abk.: Gigabyte | Großbritannien (Abk.)
+GG | 3 | Grundgesetz (Abk.) | Verfassung (Abk.)
+GO | 1 | „Los!“ auf Englisch | Brettspiel aus Asien
+GR | 2 | Kfz: Griechenland | Hellas (Kfz)
+HA | 1 | Triumph-Ausruf | Abk.: Hektar
+HB | 2 | Kfz: Bremen | Stadtmusikanten (Kfz)
+HD | 2 | Kfz-Zeichen: Heidelberg | Abk.: High Definition
+HE | 1 | Ausruf: ..., du da! | Helium (chem. Zeichen)
+HG | 3 | Quecksilber (Zeichen) | Quecksilber (Symbol)
+HH | 2 | Kfz: Hamburg | Hansestadt (Kfz)
+HI | 1 | „Hallo“ auf Englisch | Gruß (engl.)
+HR | 2 | Personalabteilung (Abk.) | Abk.: Herr
+HZ | 2 | Abk.: Hertz | Frequenzeinheit (Abk.)
+IA | 1 | Ruf des Esels | Graues Langohr ruft so
+ID | 1 | Kennung (engl. Abk.) | Ausweis-Abk. (engl.)
+IM | 1 | „in dem“ (kurz) | Verschmolzenes Wort
+IN | 1 | Gegenteil von „out“ | Angesagt, modisch
+IQ | 1 | Intelligenzquotient | Klugheitsmaß (Abk.)
+IT | 2 | Informationstechnik | Italien (Kürzel)
+JA | 1 | Gegenteil von „nein“ | Zustimmung
+JO | 2 | „Ja“ (umgangssprachlich) | Ja (südd., ugs.)
+KA | 2 | Kfz-Zeichen: Karlsruhe | Fächerstadt (Kfz)
+KG | 1 | Abk.: Kilogramm | Gewichtseinheit (Abk.)
+KI | 1 | Künstliche Intelligenz | Kfz: Kiel
+KM | 1 | Abk.: Kilometer | Wegstrecke (Abk.)
+KO | 1 | Boxen: Niederschlag | Völlig erschöpft
+KR | 3 | Krypton (chem. Zeichen) | Krypton (Symbol)
+KW | 1 | Abk.: Kalenderwoche | Abk.: Kilowatt
+LA | 2 | Abk.: Los Angeles | Tonsilbe (Solmisation)
+LI | 3 | Lithium (chem. Zeichen) | Lithium (Symbol)
+LP | 2 | Schallplatte (Abk.) | Langspielplatte (Abk.)
+LU | 3 | Kfz: Ludwigshafen | Chemiestadt (Kfz)
+MA | 2 | Kfz-Zeichen: Mannheim | Quadratestadt (Kfz)
+MB | 1 | Abk.: Megabyte | Speichergröße (Abk.)
+MG | 1 | Abk.: Milligramm | Magnesium (Zeichen)
+MI | 1 | Kurzform: Mittwoch | Tonsilbe (Solmisation)
+ML | 1 | Abk.: Milliliter | Abk.: Milliliter
+MM | 1 | Abk.: Millimeter | Tausendstel Meter (Abk.)
+MO | 1 | Kurzform: Montag | Molybdän (chem. Zeichen)
+MS | 3 | Abk.: Motorschiff | Abk.: Manuskript
+MV | 3 | Mecklenburg-Vorp. (Abk.) | Land mit Schwerin (Abk.)
+MY | 3 | Griechischer Buchstabe | Mikro-Zeichen (griech.)
+NA | 1 | Ausruf: ... also! | Natrium (chem. Zeichen)
+NE | 2 | Nicht wahr? (ugs.) | Neon (chem. Zeichen)
+NI | 3 | Nickel (chem. Zeichen) | Nickel (Symbol)
+NL | 2 | Kfz-Zeichen: Niederlande | Holland (Kfz)
+NO | 1 | „Nein“ auf Englisch | Englische Ablehnung
+NR | 1 | Abk.: Nummer | Abk.: Nummer
+NT | 3 | Neues Testament (Abk.) | Bibelteil (Abk.)
+NU | 1 | Im ..., blitzschnell | Nun (norddeutsch)
+NY | 3 | Griechischer Buchstabe | Abk.: New York
+OB | 1 | Bindewort: ... oder | Fragendes Bindewort
+OG | 1 | Obergeschoss (Abk.) | Stockwerk (Abk.)
+OH | 1 | Ausruf des Staunens | Erstaunter Ausruf
+OK | 1 | „Alles klar“ (Abk.) | In Ordnung (Abk.)
+OM | 3 | Meditationssilbe | Mantra-Silbe
+OP | 1 | Kurz: Operation | Kurz: Opus
+OS | 3 | Osmium (chem. Zeichen) | Osmium (Symbol)
+PB | 3 | Blei (chem. Zeichen) | Blei (Symbol)
+PC | 1 | Abk.: Personal Computer | Rechner (Abk.)
+PH | 2 | Säurewert: ...-Wert | Maß für Säure (...-Wert)
+PI | 2 | Kreiszahl | Griech. Buchstabe, 3,14
+PL | 2 | Kfz-Zeichen: Polen | Polen (Länderkürzel)
+PO | 1 | Hinterteil (ugs.) | Fluss in Italien
+PR | 2 | Werbung, Image (Abk.) | Public Relations (Abk.)
+PS | 1 | Abk.: Pferdestärke | Nachsatz im Brief (Abk.)
+PT | 3 | Platin (chem. Zeichen) | Platin (Symbol)
+QM | 3 | Abk.: Quadratmeter | Qualitätsmanagement
+RE | 3 | Tonsilbe (Solmisation) | Zweite Tonsilbe
+RP | 3 | Abk.: Rheinland-Pfalz | Land mit Mainz (Abk.)
+SA | 1 | Kurzform: Samstag | Sonnabend (Abk.)
+SB | 3 | Selbstbedienung (Abk.) | Self-Service (Abk.)
+SH | 3 | Schleswig-Holstein | Land mit Kiel (Abk.)
+SI | 3 | Silicium (chem. Zeichen) | Silicium (Symbol)
+SL | 3 | Abk.: Saarland | Saarland (Abk.)
+SN | 3 | Zinn (chem. Zeichen) | Zinn (Symbol)
+SO | 1 | Auf diese Weise | Kurzform: Sonntag
+ST | 3 | Abk.: Sankt | Abk.: Stück
+SV | 1 | Sportverein (Abk.) | Abk.: Sportverein
+TB | 2 | Abk.: Terabyte | Riesiger Speicher (Abk.)
+TH | 3 | Abk.: Thüringen | Land mit Erfurt (Abk.)
+TI | 3 | Titan (chem. Zeichen) | Titan (Symbol)
+TL | 3 | Abk.: Teelöffel | Abk.: Teelöffel
+TU | 3 | Technische Uni (Abk.) | Hochschule (Abk.)
+TV | 1 | Abk.: Fernsehen | Flimmerkiste (Abk.)
+UG | 1 | Untergeschoss (Abk.) | Keller (Abk.)
+UK | 2 | Großbritannien (Abk.) | Großbritannien (Kfz)
+UM | 1 | ... die Ecke | Herum
+UN | 2 | Vereinte Nationen (Abk.) | Weltorganisation (Abk.)
+UR | 2 | Vorsilbe: sehr alt | Auerochse
+US | 2 | Amerika (Abk.) | Vereinigte Staaten
+VB | 3 | Verhandlungsbasis | Kleinanzeigen-Kürzel
+VR | 2 | Virtuelle Realität | Brillen-Realität (Abk.)
+VW | 1 | Wolfsburger Autobauer | Käfer-Hersteller (Abk.)
+WC | 1 | Toilette (Abk.) | Stilles Örtchen (Abk.)
+WG | 1 | Wohngemeinschaft (Abk.) | Studenten-Wohnform
+WM | 1 | Weltmeisterschaft | Turnier alle 4 Jahre
+WO | 1 | Fragewort nach dem Ort | Ortsfrage
+XI | 3 | Griechischer Buchstabe | ... Jinping (China)
+ZB | 1 | Abk.: zum Beispiel | Beispielsweise (Abk.)
+ZN | 3 | Zink (chem. Zeichen) | Zink (Symbol)
+ZU | 1 | Gegenteil von „auf“ | Geschlossen
