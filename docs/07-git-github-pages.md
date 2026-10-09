@@ -119,6 +119,10 @@ Etwa eine Minute später ist die neue Version auf GitHub Pages. Auf dem iPhone d
 | `git pull` | Neueste Version von GitHub holen (z. B. wenn ich etwas geändert habe) |
 | `git show HEAD` | Was war im letzten Commit? |
 
+## Die leere Datei `.nojekyll`
+
+Im Hauptordner liegt eine leere Datei namens `.nojekyll`. GitHub Pages schickt normalerweise alle Dateien durch **Jekyll**, einen Generator für Blogs, der Markdown in Webseiten verwandelt und dabei Zeichen wie `{{` als Platzhalter deutet. Unsere App braucht das nicht, sie besteht aus fertigen Dateien. `.nojekyll` sagt GitHub: "Liefere alles genau so aus, wie es ist." Das ist schneller und schließt Überraschungen aus.
+
 ## Was nicht ins Repo gehört
 
 Die Datei `.gitignore` listet Dateien auf, die Git ignorieren soll. Hier zum Beispiel Pythons Zwischenspeicher `__pycache__/`. Alles, was automatisch entsteht und sich jederzeit neu erzeugen lässt, gehört nicht ins Repo. Ausnahme: `data/puzzles.json` wird zwar erzeugt, muss aber ins Repo, weil GitHub Pages sie ausliefern soll und dort kein Python läuft.
