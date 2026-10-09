@@ -604,7 +604,7 @@ Das ist im Grunde wie das Stichwortverzeichnis hinten in einem Buch: Man schläg
             passende = set(mengen[0])
             for m in mengen[1:]:
                 passende &= m
-        return [w for w in passende if w not in self.benutzt]
+        return sorted(w for w in passende if w not in self.benutzt)
 ```
 
 - Ist noch gar kein Buchstabe bekannt, passt jedes Wort der richtigen Länge.
@@ -612,6 +612,7 @@ Das ist im Grunde wie das Stichwortverzeichnis hinten in einem Buch: Man schläg
 - `sort(key=len)` sortiert nach Größe, damit wir mit der kleinsten Menge anfangen. Die Schnittmenge wird dadurch schnell klein, und die weiteren `&` sind billig.
 - `set(mengen[0])` macht eine **Kopie**. Ohne Kopie würde `&=` die Menge im Index verändern und alles kaputt machen. Ein klassischer Fehler!
 - Am Ende fliegen Wörter raus, die schon im Rätsel stehen (Regel 6).
+- **Warum `sorted`?** Das ist eine echte Fehler-Geschichte aus diesem Projekt. Python ordnet Texte in einer Menge (`set`) nach ihrem **Hashwert**, und der wird aus Sicherheitsgründen bei **jedem Programmstart neu ausgewürfelt** ("hash randomization"). Dieselbe Menge `{"HUND", "HAUS", "HASE"}` kommt also bei jedem Start in anderer Reihenfolge heraus. Ohne `sorted` kamen deshalb trotz gleichem Seed jedes Mal andere Rätsel heraus, weil der Zufallsgenerator die Kandidaten in anderer Reihenfolge "sah". Aufgefallen ist das erst, als nach einer kleinen Textänderung plötzlich alle Gitter anders aussahen. Merke: **Wer reproduzierbaren Zufall will, darf nie über eine Menge iterieren, ohne vorher zu sortieren.**
 
 #### Füllen mit "engste Stelle zuerst"
 
@@ -822,11 +823,17 @@ def baue_raetsel(info, pool, gewichte, einstellung, schwierigkeit, rng, auswahl=
 ```python
 def raetsel_als_dict(nr, schwierigkeit, gitter, woerter, info, loesung):
     hinweise = []
+    benutzte_texte = set()
     for w in woerter:
         hr, hc, pfeil = hinweisfeld_fuer(w)
+        eintrag = info[w["wort"]]
+        text = hinweistext(eintrag, schwierigkeit)
+        if text in benutzte_texte:
+            text = eintrag["schwer"] if text == eintrag["leicht"] else eintrag["leicht"]
+        benutzte_texte.add(text)
         hinweise.append({
             "r": hr, "c": hc, "pfeil": pfeil,
-            "text": hinweistext(info[w["wort"]], schwierigkeit),
+            "text": text,
             "wort": w["wort"],
             "sr": w["sr"], "sc": w["sc"],
             "richtung": w["richtung"],
@@ -835,6 +842,8 @@ def raetsel_als_dict(nr, schwierigkeit, gitter, woerter, info, loesung):
     oben_unten = {"rechts": 0, "rechts_unten": 1, "unten_rechts": 2, "unten": 3}
     hinweise.sort(key=lambda h: (h["r"], h["c"], oben_unten[h["pfeil"]]))
 ```
+
+`benutzte_texte` verhindert, dass im selben Rätsel zweimal derselbe Hinweis steht (etwa zweimal "Frauenname" für UTA und UTE). Ist der Text schon vergeben, nimmt der Generator den anderen Hinweis des Worts. Das ändert nichts am Zufall, die Gitter bleiben also dieselben.
 
 Sortiert wird nach einem **Tupel**: Python vergleicht Tupel Element für Element. Erst nach Zeile, bei Gleichstand nach Spalte, dann nach Pfeil-Reihenfolge. So steht in einem Feld mit zwei Hinweisen der waagerechte oben, der senkrechte unten, wie im Rätselheft.
 
@@ -858,13 +867,13 @@ Ein Rätsel in `puzzles.json` sieht dann so aus (gekürzt):
   "schwierigkeit": "leicht",
   "breite": 8,
   "hoehe": 9,
-  "gitter": ["#PLATT#I", "#U####EG", "KRONE#ML", "..."],
+  "gitter": ["#OUT#LAG", "#K##I###", "I#NACKEN", "..."],
   "hinweise": [
-    {"r": 0, "c": 0, "pfeil": "rechts", "text": "Flach",
-     "wort": "PLATT", "sr": 0, "sc": 1, "richtung": "waagerecht", "laenge": 5},
+    {"r": 0, "c": 0, "pfeil": "rechts", "text": "Gegenteil von „in“",
+     "wort": "OUT", "sr": 0, "sc": 1, "richtung": "waagerecht", "laenge": 3},
     "..."
   ],
-  "loesung": {"wort": "HEUTE", "felder": [[8, 6], [2, 4], [3, 7], [0, 5], [6, 7]]}
+  "loesung": {"wort": "TITEL", "felder": [[8, 4], [2, 0], [4, 3], [2, 6], [5, 6]]}
 }
 ```
 
@@ -903,7 +912,7 @@ def main():
     info = lade_woerter()
 ```
 
-Ein eigener Zufallsgenerator mit festem Seed. Alle zufälligen Entscheidungen im ganzen Programm laufen über dieses eine Objekt. Deshalb kommt mit `--seed 2026` immer exakt dasselbe heraus.
+Ein eigener Zufallsgenerator mit festem Seed. Alle zufälligen Entscheidungen im ganzen Programm laufen über dieses eine Objekt. Deshalb kommt mit `--seed 2026` immer exakt dasselbe heraus (vorausgesetzt, die Wortliste ist gleich, und überall, wo über Mengen gelaufen wird, wird vorher sortiert, siehe `kandidaten`).
 
 ```python
     alle = []

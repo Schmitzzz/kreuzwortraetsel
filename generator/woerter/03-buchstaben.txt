@@ -34,7 +34,7 @@ AST | 1 | Zweig am Baum | Holzteil am Stamm
 AUA | 1 | Kinderwort für Schmerz | Ausruf bei Wehweh
 AUE | 3 | Flussniederung | Feuchte Wiese am Bach
 AUF | 1 | Gegenteil von „zu“ | Offen
-AUS | 1 | Gegenteil von „an“ | Vorbei, zu Ende
+AUS | 1 | Vorbei, zu Ende | Ball im ... (Fußball)
 AVE | 3 | ... Maria | Gegrüßet seist du (lat.)
 AXT | 1 | Werkzeug zum Holzhacken | Beil
 BAD | 1 | Raum mit Wanne | Kurort
@@ -73,7 +73,7 @@ DUR | 2 | Tongeschlecht (fröhlich) | Gegenteil von „Moll“
 EGO | 2 | Das Ich | Ich (lat.)
 EHE | 1 | Bund fürs Leben | Trauschein-Bund
 EID | 2 | Schwur | Feierliches Versprechen
-EIN | 1 | Unbestimmter Artikel | Schalterstellung
+EIN | 1 | Unbestimmter Artikel | Gegenteil von „aus“ (Gerät)
 EIS | 1 | Gefrorenes Wasser | Sommer-Leckerei
 ELF | 1 | Zahl nach zehn | Fußballmannschaft
 ELM | 3 | Höhenzug (Niedersachsen) | Niedersächs. Höhenzug
@@ -123,7 +123,7 @@ ICH | 1 | Persönliches Fürwort | Das Ego
 IDA | 2 | Frauenname | Berg auf Kreta
 IHM | 1 | Dativ von „er“ | „Gib es ...!“
 IHN | 1 | Akkusativ von „er“ | „Ich sehe ...“
-IHR | 1 | Fürwort (Plural) | Fürwort: ... Kinder!
+IHR | 1 | Fürwort (Plural) | Anrede für mehrere
 INN | 2 | Fluss durch Innsbruck | Nebenfluss der Donau
 INS | 1 | „in das“ (kurz) | „... Bett gehen“
 ION | 3 | Geladenes Teilchen | Geladenes Atom
@@ -201,7 +201,7 @@ PAR | 2 | Golf: Schlagvorgabe | Gleichwertig (lat.)
 PDF | 1 | Dokument-Format | Adobe-Format (Abk.)
 PEP | 2 | Schwung | Elan
 PER | 2 | Mit, durch (lat.) | ... Post
-PIA | 2 | Frauenname | Weiblicher Vorname
+PIA | 2 | Frauenname | Die Fromme (lat.)
 PIK | 2 | Spielkartenfarbe | Berggipfel
 PIN | 1 | Geheimzahl | Anstecknadel
 PKW | 1 | Auto (Abk.) | Personenwagen (Abk.)
@@ -285,7 +285,7 @@ WEM | 1 | Fragewort (Dativ) | „... gehört das?“
 WEN | 1 | Fragewort (Akkusativ) | „... meinst du?“
 WER | 1 | Fragewort nach Person | „... ist da?“
 WIE | 1 | Fragewort nach der Art | „... geht's?“
-WIR | 1 | Fürwort (Plural) | Ich und du
+WIR | 1 | Ich und du (Fürwort) | Gemeinschafts-Fürwort
 WOK | 1 | Asiatische Pfanne | Chinapfanne
 WOW | 1 | Ausruf des Staunens | Toll! (engl.)
 WUT | 1 | Zorn | Raserei

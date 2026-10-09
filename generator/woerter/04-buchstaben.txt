@@ -113,14 +113,14 @@ ELBE | 1 | Fluss durch Hamburg | Strom durch Dresden
 ELCH | 1 | Größter Hirsch | Schwedischer Riese
 ELFE | 2 | Zartes Fabelwesen | Waldgeist
 EMIL | 2 | Männername | ... und die Detektive
-EMMA | 1 | Frauenname | Frauenmagazin
+EMMA | 1 | Frauenname | Roman von Jane Austen
 ENDE | 1 | Schluss | Finale
 ENGE | 2 | Schmale Stelle | Platzmangel
 ENNS | 3 | Fluss in Österreich | Nebenfluss der Donau
 ENTE | 1 | Watschelnder Wasservogel | Zeitungsfalschmeldung
 ERBE | 1 | Nachlass | Hinterlassenschaft
 ERDE | 1 | Unser Planet | Boden
-ERNA | 2 | Frauenname | Alter Frauenname
+ERNA | 2 | Frauenname | Kurzform von Ernestine
 ERST | 1 | Zuerst | Nicht früher als
 ESEL | 1 | Grautier | Dummkopf (Schimpfwort)
 ESSE | 3 | Schornstein | Schmiedefeuer
@@ -220,7 +220,7 @@ IDEE | 1 | Einfall | Geistesblitz
 IDOL | 2 | Vorbild | Star, Abgott
 IGEL | 1 | Stacheltier | Stachliger Schläfer
 IGLU | 1 | Schneehaus | Eishütte der Inuit
-ILSE | 2 | Frauenname | Alter Frauenname
+ILSE | 2 | Kurzform von Elisabeth | Fluss im Harz
 INGE | 2 | Frauenname | Kurzform von Ingeborg
 IRAK | 2 | Staat am Euphrat | Staat mit Bagdad
 IRAN | 2 | Staat in Vorderasien | Persien heute

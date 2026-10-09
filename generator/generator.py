@@ -348,7 +348,9 @@ class WortFueller:
             passende = set(mengen[0])
             for m in mengen[1:]:
                 passende &= m                           # Schnittmenge
-        return [w for w in passende if w not in self.benutzt]
+        # sorted(): Mengen haben in Python bei jedem Programmstart eine andere
+        # Reihenfolge. Sortiert ist sie immer gleich -> gleicher Seed = gleiche Rätsel.
+        return sorted(w for w in passende if w not in self.benutzt)
 
     def fuelle(self, luecken, max_schritte=2000):
         """Füllt alle Lücken. True bei Erfolg, Buchstaben stehen dann in self.buchstaben."""
@@ -509,11 +511,19 @@ def baue_raetsel(info, pool, gewichte, einstellung, schwierigkeit, rng, auswahl=
 def raetsel_als_dict(nr, schwierigkeit, gitter, woerter, info, loesung):
     """Bringt ein Rätsel in das JSON-Format, das die App liest."""
     hinweise = []
+    benutzte_texte = set()
     for w in woerter:
         hr, hc, pfeil = hinweisfeld_fuer(w)
+        eintrag = info[w["wort"]]
+        text = hinweistext(eintrag, schwierigkeit)
+        if text in benutzte_texte:
+            # Derselbe Hinweis steht schon im Rätsel (z. B. zweimal "Frauenname")
+            # -> den anderen Hinweis dieses Worts nehmen.
+            text = eintrag["schwer"] if text == eintrag["leicht"] else eintrag["leicht"]
+        benutzte_texte.add(text)
         hinweise.append({
             "r": hr, "c": hc, "pfeil": pfeil,
-            "text": hinweistext(info[w["wort"]], schwierigkeit),
+            "text": text,
             "wort": w["wort"],
             "sr": w["sr"], "sc": w["sc"],
             "richtung": w["richtung"],

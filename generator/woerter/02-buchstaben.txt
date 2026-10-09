@@ -8,9 +8,9 @@
 AA | 3 | Auswärtiges Amt (Abk.) | Außenministerium (Abk.)
 AB | 1 | Gegenteil von „an“ | Fahrplan: Abfahrt
 AG | 1 | Abk.: Aktiengesellschaft | Silber (chem. Zeichen)
-AH | 1 | Ausruf der Erkenntnis | Ausruf: ... so!
+AH | 1 | Ausruf: ... so! | Wohliger Laut
 AL | 3 | Aluminium (Zeichen) | Aluminium (Symbol)
-AM | 1 | „an dem“ (kurz) | Verschmolzenes Wort
+AM | 1 | „an dem“ (kurz) | „an dem“ verkürzt
 AN | 1 | Gegenteil von „aus“ | Schalterstellung
 AR | 2 | Flächenmaß (100 m²) | Argon (chem. Zeichen)
 AT | 1 | Länderkürzel Österreich | Altes Testament (Abk.)
@@ -63,7 +63,7 @@ HR | 2 | Personalabteilung (Abk.) | Abk.: Herr
 HZ | 2 | Abk.: Hertz | Frequenzeinheit (Abk.)
 IA | 1 | Ruf des Esels | Graues Langohr ruft so
 ID | 1 | Kennung (engl. Abk.) | Ausweis-Abk. (engl.)
-IM | 1 | „in dem“ (kurz) | Verschmolzenes Wort
+IM | 1 | „in dem“ (kurz) | „in dem“ verkürzt
 IN | 1 | Gegenteil von „out“ | Angesagt, modisch
 IQ | 1 | Intelligenzquotient | Klugheitsmaß (Abk.)
 IT | 2 | Informationstechnik | Italien (Kürzel)
